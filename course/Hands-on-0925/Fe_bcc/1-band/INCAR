@@ -1,0 +1,7 @@
+System = bcc Fe
+RWIGS = 1.302
+ICHARG = 11
+LCHARG = .FALSE.
+ISPIN = 2
+MAGMOM = 3
+LORBIT = 10

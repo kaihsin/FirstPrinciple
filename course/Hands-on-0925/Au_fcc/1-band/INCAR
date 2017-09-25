@@ -1,0 +1,6 @@
+System = fcc Au
+ICHARG = 11
+LCHARG = .FALSE.
+LWAVE = F
+LORBIT = 10
+RWIGS = 1.503

@@ -1,0 +1,4 @@
+System = fcc Au
+RWIGS = 1.503
+EDIFF = 1.0E-6
+ENCUT = 300 
