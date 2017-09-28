@@ -81,7 +81,41 @@
 	\item The honeycomb lattice is formed by primitive vectors as the same as parallelogram, with basis contain 2-sites. In which the reciprocal vectors also forms parallelogram. Since the Brillouin zone is just the Wigner-Seitz cell in reciprocal space. The Wigner-Seitz cell formed from parallelogram is hexagonal structure.    
 	
 	% 5
-	\item 
+	\item The first Brilluion zone is the Wigner-Seitz cell in k-space. Which we can represent the boundary point (H,N,P) in terms of reciprocal vector $\vec{b}_i$:
+	% ref: http://lampx.tugraz.at/~hadley/ss1/bzones/bcc.php
+	\begin{equation}
+		\vec{k} = \alpha \vec{b_1} + \beta \vec{b_2} + \gamma \vec{b_3} 
+	\end{equation}
+	
+	For Brilluion zone in bcc lattice, the reciprocal lattice is fcc structure with reciprocal vectors: 
+	\begin{align*}
+		\vec{b_1} &= \frac{2\pi}{a}(\hat{x} + \hat{z}) \\
+		\vec{b_2} &= \frac{2\pi}{a}(\hat{y} + \hat{z}) \\
+		\vec{b_3} &= \frac{2\pi}{a}(\hat{y} + \hat{z}) \\
+	\end{align*}
+	
+	The boundary point (H,N,P) thus can be represent in basis of reciprocal vector$\langle\alpha,\beta,\gamma\rangle$:
+	\begin{align*}
+		H &: \langle -0.5 , 0.5 , 0.5 \rangle \\
+		N &: \langle    0 , 0.5 ,   0 \rangle \\
+		P &: \langle 0.25 ,0.25 ,0.25 \rangle \\
+	\end{align*}
+	
+	For Brilluion zone in fcc lattice, the reciprocal lattice is bcc structure with reciprocal vectors: 
+	% ref: http://lampx.tugraz.at/~hadley/ss1/bzones/fcc.php
+	\begin{align*}
+	\vec{b_1} &= \frac{2\pi}{a}(\hat{x} -\hat{y} + \hat{z}) \\
+	\vec{b_2} &= \frac{2\pi}{a}(\hat{x} + \hat{y} - \hat{z}) \\
+	\vec{b_3} &= \frac{2\pi}{a}(-\hat{x} + \hat{y} + \hat{z}) \\
+	\end{align*}
+	
+	The boundary point (X,W,K,U) thus can be represent in basis of reciprocal vector$\langle\alpha,\beta,\gamma\rangle$:
+	\begin{align*}
+	X &: \langle    0  , 0.5 ,  0.5 \rangle \\
+	W &: \langle 0.25  ,0.75 ,  0.5 \rangle \\
+	K &: \langle 0.25  ,0.25 , 0.25 \rangle \\
+	U &: \langle 0.375 ,0.75 ,0.375 \rangle \\
+	\end{align*}
 	% 6
 	\item 
 		\begin{enumerate}[label=(\alph*)]

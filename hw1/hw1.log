@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  29 SEP 2017 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  29 SEP 2017 07:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1615,42 +1615,42 @@ Package pdftex.def Info: Material/hcp.png used on input line 41.
 (pdftex.def)             Requested size: 113.81102pt x 112.26007pt.
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Mat
-erial/hcp.png>] <Material/GaAs.png, id=23, 549.05125pt x 552.0625pt>
+erial/hcp.png>] [2] <Material/GaAs.png, id=27, 549.05125pt x 552.0625pt>
 File: Material/GaAs.png Graphic file (type png)
 
 <use Material/GaAs.png>
-Package pdftex.def Info: Material/GaAs.png used on input line 90.
+Package pdftex.def Info: Material/GaAs.png used on input line 124.
 (pdftex.def)             Requested size: 113.81102pt x 114.42868pt.
- [2 <./Material/GaAs.png>]
-<Material/NaCl.png, id=29, 636.3775pt x 661.47125pt>
+ [3 <./Material/GaAs.png>]
+<Material/NaCl.png, id=32, 636.3775pt x 661.47125pt>
 File: Material/NaCl.png Graphic file (type png)
  <use Material/NaCl.png>
-Package pdftex.def Info: Material/NaCl.png used on input line 118.
+Package pdftex.def Info: Material/NaCl.png used on input line 152.
 (pdftex.def)             Requested size: 113.81102pt x 118.2926pt.
 
-[3 <./Material/NaCl.png>]
-<Material/SrTiO3.png, id=34, 607.26875pt x 614.295pt>
+[4 <./Material/NaCl.png>]
+<Material/SrTiO3.png, id=37, 607.26875pt x 614.295pt>
 File: Material/SrTiO3.png Graphic file (type png)
 
 <use Material/SrTiO3.png>
-Package pdftex.def Info: Material/SrTiO3.png used on input line 145.
+Package pdftex.def Info: Material/SrTiO3.png used on input line 179.
 (pdftex.def)             Requested size: 113.81102pt x 115.12378pt.
- [4 <./Material/SrTiO3.png>]
-<Material/MoS2-2H.png, id=39, 616.3025pt x 661.47125pt>
+ [5 <./Material/SrTiO3.png>]
+<Material/MoS2-2H.png, id=42, 616.3025pt x 661.47125pt>
 File: Material/MoS2-2H.png Graphic file (type png)
 
 <use Material/MoS2-2H.png>
-Package pdftex.def Info: Material/MoS2-2H.png used on input line 169.
+Package pdftex.def Info: Material/MoS2-2H.png used on input line 203.
 (pdftex.def)             Requested size: 113.81102pt x 122.14821pt.
- [5 <./Material/MoS2-2H.png>] (./hw1.bbl
+ [6 <./Material/MoS2-2H.png>] (./hw1.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) (./hw1.bbl) [6] (./hw1.aux) ) 
+) (./hw1.bbl) [7] (./hw1.aux) ) 
 Here is how much of TeX's memory you used:
  16236 strings out of 493014
  267443 string characters out of 6133336
- 343716 words of memory out of 5000000
+ 342716 words of memory out of 5000000
  19557 multiletter control sequences out of 15000+600000
  23524 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1672,10 +1672,10 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on hw1.pdf (6 pages, 738092 bytes).
+Output written on hw1.pdf (7 pages, 744114 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
