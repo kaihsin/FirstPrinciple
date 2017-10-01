@@ -31,7 +31,7 @@
 \email{r05222003@ntu.edu.tw}
 \affiliation{Department of Physics and Center of Theoretical Sciences, National Taiwan University, Taipei 10607, Taiwan}
 
-\date{\today}
+%\date{\today}
 \maketitle
 
 \begin{enumerate}	
@@ -55,15 +55,15 @@
 		\begin{enumerate}[label=(\alph*)] 
 			\item 
 				\subitem for all $n_i \in$ even with primitive vectors $(2\hat{x} , 2\hat{y} , 2\hat{z})$ , the lattice is a simple cubic lattice with side length 2 origin at $(0\hat{x},0\hat{y},0\hat{z})$
-				\subitem for all $n_i \in$ odd with primitive vectors $(2\hat{x} , 2\hat{y} , 2\hat{z})$ , the lattice is also a simple cubic lattice with side length 2 include point $(0\hat{x},0\hat{y},0\hat{z})$ 
+				\subitem for all $n_i \in$ odd with primitive vectors $(2\hat{x} , 2\hat{y} , 2\hat{z})$ , the lattice is also a simple cubic lattice with side length 2 include point $(1\hat{x},1\hat{y},1\hat{z})$ 
 			\item 
 				\subitem In the case where $\sum_{i} n_i$ is even, this is a simple cubic lattice with side length $\sqrt{3}$ (which can be thought as a $\sqrt{3}$ scaled + $45^o$ rotated version of sc.)
 		\end{enumerate}
 	\item
-		Let's defined the primitive reciprocal lattice is formed by $\langle G_1 , G_2 , G_3 \rangle$.  Which defined as :
+		Let's defined the primitive reciprocal lattice is formed by basis vectors $\vec{G_1} , \vec{G_2} , \vec{G_3} $.  Which defined as :
 		\begin{equation}
 			\begin{split}
-				G_i \cdot b_j = 2\pi \delta_{ij} 
+				\vec{G_i} \cdot \vec{b_j} = 2\pi \delta_{ij} 
 			\end{split}
 		\end{equation} 
 		With the known relation:
@@ -149,7 +149,7 @@ Direct
 			\newpage
 			\item $NaCl$ 
 				\begin{figure}[!h]
-					\includegraphics[width=4cm]{{Material/NaCl}}
+					\includegraphics[width=8cm]{{Material/NaCl}}
 					\caption{NaCl fcc structure}
 					\label{fig:nacl}
 				\end{figure}
@@ -176,7 +176,7 @@ Direct
 			\newpage
 			\item $SrTiO_3$
 				\begin{figure}[!h]
-					\includegraphics[width=4cm]{{Material/SrTiO3}}
+					\includegraphics[width=8cm]{{Material/SrTiO3}}
 					\caption{SrTiO3 sc structure}
 					\label{fig:srtio3}
 				\end{figure}
@@ -200,7 +200,7 @@ Direct
 			\newpage
 			\item $2H MoS_2$
 				\begin{figure}[!h]
-					\includegraphics[width=4cm]{{Material/MoS2-2H}}
+					\includegraphics[width=8cm]{{Material/MoS2-2H}}
 					\caption{MoS2-2H}
 					\label{fig:mos22h}
 				\end{figure}
@@ -223,7 +223,7 @@ Direct
 0.6666666666  0.333333333  0.144826000
 \end{lstlisting}			
 		\end{enumerate}
-	
+	\newpage
 	%7
 	\item Considering the general periodic potential with same periodicity of lattice, we can express the potential $U(r)$ as block form :
 	\begin{align*}
@@ -244,70 +244,95 @@ Direct
 	\end{align*} 
 	Where we express the free electron energy at different reciprocal point $\vec{\gamma}$ as $\epsilon^{0}_{\gamma}(\vec{k})$ . 
 	
-	Thus for the first order approximation with 4 fold degeneracy of free electron energy at $\vec{k}_w$ with given as $\epsilon^{0}_{1}$, $\epsilon^{0}_{2}$, $\epsilon^{0}_{3}$, $\epsilon^{0}_{4}$, we have following equation sets:
-	\begin{align*}
-		\left( \epsilon - \epsilon^{0}_{1} \right) C_{\vec{k} - \vec{\gamma_{1}}}  &= C_{\vec{k}-\vec{\gamma_{2}}} U_{\vec{\gamma_{2}}-\vec{\gamma_{1}}} 
-		                                                                            + C_{\vec{k}-\vec{\gamma_{3}}} U_{\vec{\gamma_{3}}-\vec{\gamma_{1}}} 
-		                                                                            + C_{\vec{k}-\vec{\gamma_{4}}} U_{\vec{\gamma_{4}}-\vec{\gamma_{1}}} \\
-		\left( \epsilon - \epsilon^{0}_{2} \right) C_{\vec{k} - \vec{\gamma_{2}}}  &= C_{\vec{k}-\vec{\gamma_{1}}} U_{\vec{\gamma_{1}}-\vec{\gamma_{2}}} 
-																				    + C_{\vec{k}-\vec{\gamma_{3}}} U_{\vec{\gamma_{3}}-\vec{\gamma_{2}}} 
-																				    + C_{\vec{k}-\vec{\gamma_{4}}} U_{\vec{\gamma_{4}}-\vec{\gamma_{2}}} \\
-		\left( \epsilon - \epsilon^{0}_{3} \right) C_{\vec{k} - \vec{\gamma_{3}}}  &= C_{\vec{k}-\vec{\gamma_{1}}} U_{\vec{\gamma_{1}}-\vec{\gamma_{3}}} 
-																					+ C_{\vec{k}-\vec{\gamma_{2}}} U_{\vec{\gamma_{2}}-\vec{\gamma_{3}}} 
-																					+ C_{\vec{k}-\vec{\gamma_{4}}} U_{\vec{\gamma_{4}}-\vec{\gamma_{3}}} \\
-		\left( \epsilon - \epsilon^{0}_{4} \right) C_{\vec{k} - \vec{\gamma_{4}}}  &= C_{\vec{k}-\vec{\gamma_{1}}} U_{\vec{\gamma_{1}}-\vec{\gamma_{4}}} 
-																					+ C_{\vec{k}-\vec{\gamma_{2}}} U_{\vec{\gamma_{2}}-\vec{\gamma_{4}}} 
-																					+ C_{\vec{k}-\vec{\gamma_{3}}} U_{\vec{\gamma_{3}}-\vec{\gamma_{4}}} \\
-	\end{align*}  
-	
-	The above equation can re-align into matrix form :
-	\begin{equation}
-	\begin{bmatrix}
-		\left(  \epsilon^{0}_{1} - \epsilon \right) & U_{\vec{\gamma_{2}}-\vec{\gamma_{1}}}     & U_{\vec{\gamma_{3}}-\vec{\gamma_{1}}}     & U_{\vec{\gamma_{4}}-\vec{\gamma_{1}}} \\
-		U_{\vec{\gamma_{1}}-\vec{\gamma_{2}}}     & \left( \epsilon^{0}_{2} -\epsilon  \right) & U_{\vec{\gamma_{3}}-\vec{\gamma_{2}}}     & U_{\vec{\gamma_{4}}-\vec{\gamma_{2}}} \\
-		U_{\vec{\gamma_{1}}-\vec{\gamma_{3}}}     & U_{\vec{\gamma_{2}}-\vec{\gamma_{3}}}     & \left( \epsilon^{0}_{3} - \epsilon \right) & U_{\vec{\gamma_{4}}-\vec{\gamma_{3}}} \\
-		U_{\vec{\gamma_{1}}-\vec{\gamma_{4}}}     & U_{\vec{\gamma_{2}}-\vec{\gamma_{4}}}     & U_{\vec{\gamma_{3}}-\vec{\gamma_{4}}}    &  \left( \epsilon^{0}_{4} - \epsilon \right) \\
-	\end{bmatrix} 
-	\begin{bmatrix}
-		C_{\vec{k}-\vec{\gamma_{1}}} \\
-		C_{\vec{k}-\vec{\gamma_{2}}} \\
-		C_{\vec{k}-\vec{\gamma_{3}}} \\
-		C_{\vec{k}-\vec{\gamma_{4}}}
-	\end{bmatrix} = 0
-	\end{equation}
-	which the solution is when the determinant = 0. and for fcc :
-	
-	\begin{figure}[!h]
-		\includegraphics[width=4cm]{{Material/fcc_brilluion}}
-		\caption{fcc brilluion zone}
-		\label{fig:fccbz}
-	\end{figure}
-	
-	Consider also the symmetry within Brillouin zone, we can easily see :
-	
-	\begin{align*}
-		&U_{\vec{\gamma_{4}-\vec{\gamma_{1}}}} = U_{200} \\
-		&U_{\vec{\gamma_{2}-\vec{\gamma_{3}}}} = U_{002} \\
-		&U_2 = U_{200} = U_{002} 
-	\end{align*}
-	\begin{align*}
-		&U_{\vec{\gamma_{2}-\vec{\gamma_{1}}}} = U_{111} \\
-		&U_{\vec{\gamma_{3}-\vec{\gamma_{1}}}} = U_{11-1} \\
-		&U_{\vec{\gamma_{4}-\vec{\gamma_{2}}}} = U_{1-1-1} \\
-		&U_1 = U_{111} = U_{11-1} = U_{1-1-1}
-	\end{align*}	
-	
-	thus the solution is:
-	\begin{equation}
-		\begin{vmatrix}
-			( \epsilon^{0}_1 - \epsilon ) & U_1 & U_1 & U_2 \\
-			U_1 & ( \epsilon^{0}_2 - \epsilon ) & U_2 & U_1 \\
-			U_1 & U_2 &( \epsilon^{0}_3 - \epsilon ) &  U_1 \\
-			U_2 & U_1 & U_1 &( \epsilon^{0}_4 - \epsilon )  
-		\end{vmatrix} = 0
-	\end{equation}
-	    
-	
+	\begin{enumerate}[label=(\alph*)]
+		\item Thus for the first order approximation with 4 fold degeneracy of free electron energy at $\vec{k}_w$ with given as $\epsilon^{0}_{1}$, $\epsilon^{0}_{2}$, $\epsilon^{0}_{3}$, $\epsilon^{0}_{4}$, we have following equation sets:
+		\begin{align*}
+			\left( \epsilon - \epsilon^{0}_{1} \right) C_{\vec{k} - \vec{\gamma_{1}}}  &= C_{\vec{k}-\vec{\gamma_{2}}} U_{\vec{\gamma_{2}}-\vec{\gamma_{1}}} 
+			                                                                            + C_{\vec{k}-\vec{\gamma_{3}}} U_{\vec{\gamma_{3}}-\vec{\gamma_{1}}} 
+			                                                                            + C_{\vec{k}-\vec{\gamma_{4}}} U_{\vec{\gamma_{4}}-\vec{\gamma_{1}}} \\
+			\left( \epsilon - \epsilon^{0}_{2} \right) C_{\vec{k} - \vec{\gamma_{2}}}  &= C_{\vec{k}-\vec{\gamma_{1}}} U_{\vec{\gamma_{1}}-\vec{\gamma_{2}}} 
+																					    + C_{\vec{k}-\vec{\gamma_{3}}} U_{\vec{\gamma_{3}}-\vec{\gamma_{2}}} 
+																					    + C_{\vec{k}-\vec{\gamma_{4}}} U_{\vec{\gamma_{4}}-\vec{\gamma_{2}}} \\
+			\left( \epsilon - \epsilon^{0}_{3} \right) C_{\vec{k} - \vec{\gamma_{3}}}  &= C_{\vec{k}-\vec{\gamma_{1}}} U_{\vec{\gamma_{1}}-\vec{\gamma_{3}}} 
+																						+ C_{\vec{k}-\vec{\gamma_{2}}} U_{\vec{\gamma_{2}}-\vec{\gamma_{3}}} 
+																						+ C_{\vec{k}-\vec{\gamma_{4}}} U_{\vec{\gamma_{4}}-\vec{\gamma_{3}}} \\
+			\left( \epsilon - \epsilon^{0}_{4} \right) C_{\vec{k} - \vec{\gamma_{4}}}  &= C_{\vec{k}-\vec{\gamma_{1}}} U_{\vec{\gamma_{1}}-\vec{\gamma_{4}}} 
+																						+ C_{\vec{k}-\vec{\gamma_{2}}} U_{\vec{\gamma_{2}}-\vec{\gamma_{4}}} 
+																						+ C_{\vec{k}-\vec{\gamma_{3}}} U_{\vec{\gamma_{3}}-\vec{\gamma_{4}}} \\
+		\end{align*}  
+		
+		The above equation can be re-align into matrix form :
+		\begin{equation}
+		\begin{bmatrix}
+			\left(  \epsilon^{0}_{1} - \epsilon \right) & U_{\vec{\gamma_{2}}-\vec{\gamma_{1}}}     & U_{\vec{\gamma_{3}}-\vec{\gamma_{1}}}     & U_{\vec{\gamma_{4}}-\vec{\gamma_{1}}} \\
+			U_{\vec{\gamma_{1}}-\vec{\gamma_{2}}}     & \left( \epsilon^{0}_{2} -\epsilon  \right) & U_{\vec{\gamma_{3}}-\vec{\gamma_{2}}}     & U_{\vec{\gamma_{4}}-\vec{\gamma_{2}}} \\
+			U_{\vec{\gamma_{1}}-\vec{\gamma_{3}}}     & U_{\vec{\gamma_{2}}-\vec{\gamma_{3}}}     & \left( \epsilon^{0}_{3} - \epsilon \right) & U_{\vec{\gamma_{4}}-\vec{\gamma_{3}}} \\
+			U_{\vec{\gamma_{1}}-\vec{\gamma_{4}}}     & U_{\vec{\gamma_{2}}-\vec{\gamma_{4}}}     & U_{\vec{\gamma_{3}}-\vec{\gamma_{4}}}    &  \left( \epsilon^{0}_{4} - \epsilon \right) \\
+		\end{bmatrix} 
+		\begin{bmatrix}
+			C_{\vec{k}-\vec{\gamma_{1}}} \\
+			C_{\vec{k}-\vec{\gamma_{2}}} \\
+			C_{\vec{k}-\vec{\gamma_{3}}} \\
+			C_{\vec{k}-\vec{\gamma_{4}}}
+		\end{bmatrix} = 0
+		\end{equation}
+		which the solution is when the determinant = 0. and for fcc :
+		
+		\begin{figure}[!h]
+			\includegraphics[width=4cm]{{Material/fcc_brilluion}}
+			\caption{fcc brilluion zone}
+			\label{fig:fccbz}
+		\end{figure}
+		
+		Consider also the symmetry within Brillouin zone, we can easily see :
+		
+		\begin{align*}
+			&U_{\vec{\gamma_{4}-\vec{\gamma_{1}}}} = U_{200} \\
+			&U_{\vec{\gamma_{2}-\vec{\gamma_{3}}}} = U_{002} \\
+			&U_2 = U_{200} = U_{002} 
+		\end{align*}
+		\begin{align*}
+			&U_{\vec{\gamma_{2}-\vec{\gamma_{1}}}} = U_{111} \\
+			&U_{\vec{\gamma_{3}-\vec{\gamma_{1}}}} = U_{11-1} \\
+			&U_{\vec{\gamma_{4}-\vec{\gamma_{2}}}} = U_{1-1-1} \\
+			&U_1 = U_{111} = U_{11-1} = U_{1-1-1}
+		\end{align*}	
+		
+		thus the solution is:
+		\begin{equation}
+			\begin{vmatrix}
+				( \epsilon^{0}_1 - \epsilon ) & U_1 & U_1 & U_2 \\
+				U_1 & ( \epsilon^{0}_2 - \epsilon ) & U_2 & U_1 \\
+				U_1 & U_2 &( \epsilon^{0}_3 - \epsilon ) &  U_1 \\
+				U_2 & U_1 & U_1 &( \epsilon^{0}_4 - \epsilon )  
+			\end{vmatrix} = 0
+		\end{equation}
+		    Which by row elimination process and reductive algorithm we can derive the root as $\vec{k_w}$ 
+		\begin{align}
+			&(\epsilon_w - \epsilon - U_2)^{2} \left[ (\epsilon_w - \epsilon + U_2)^{2} - (2A)^{2} \right] \\
+			&= (\epsilon_w - \epsilon - U_2)^{2}(\epsilon_w - \epsilon + U_2 + 2U_1)(\epsilon_w - \epsilon + U_2 - 2U_1) \\
+			&\epsilon = \epsilon_w - U_2 (d.root) \\
+			&\epsilon = \epsilon_w + U_2 \pm 2{U_1}_{\#}
+		\end{align}
+		
+		\item For point $U$, which plane((200),(111)) meets. we have solutions : 
+		 \begin{equation}
+		 \begin{vmatrix}
+			 ( \epsilon^{0}_1 - \epsilon ) & U_1 & U_2 \\
+			 U_1 & ( \epsilon^{0}_2 - \epsilon )  & U_1 \\
+			 U_2 & U_1 &( \epsilon^{0}_4 - \epsilon )  \\
+		 \end{vmatrix} = 0
+		 \end{equation}
+		 Which the solution is :
+		\begin{align}
+			& (\epsilon_U - \epsilon - U_2)\left[ (\epsilon_U - \epsilon + U_2)-(2U_1)^{2} \right] \\
+			&= (\epsilon_U - \epsilon - U_2)\left[ (\epsilon_U - \epsilon)^2 + U_2(\epsilon_U - \epsilon) - 2{U_1}^2 \right] \\
+			&\epsilon = \epsilon_U - U_2 \\
+			&\epsilon = \epsilon_U + {\frac{U_2 \pm \sqrt{U_2^2+ 8U_1^2}}{2}}_{\#}
+		\end{align}
+		 
+	\end{enumerate}
+
 	%8 
 	\item Considering the block wave function $\psi_{n,\vec{k}}(r)$ with band index $n$, and wave vector$\vec{k}$. The Wannier functions center at lattice position $\vec{R}$ can be written in terms of inverse Fourier transform with constant $\kappa$ :
 	\begin{equation}
