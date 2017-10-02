@@ -1,0 +1,5 @@
+System = bcc Fe
+RWIGS = 1.302
+EDIFF = 1E-6
+ISPIN = 2
+MAGMOM = 3

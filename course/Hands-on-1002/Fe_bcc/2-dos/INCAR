@@ -1,0 +1,9 @@
+System = bcc Fe
+RWIGS = 1.302
+ICHARG = 11
+LCHARG = .FALSE.
+ISPIN = 2
+MAGMOM = 3
+LORBIT = 10
+ISMEAR = -5
+NEDOS  = 1001
