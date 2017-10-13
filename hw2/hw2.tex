@@ -1,0 +1,74 @@
+\documentclass[notitlepage]{revtex4-1}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{physics}   % for simple physics notation
+\usepackage{bm}        % for math
+\usepackage{amssymb}   % for math
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{comment}
+\usepackage{listings}
+\usepackage{CJK}
+\usepackage{graphicx}
+\newcommand{\hilight}[1]{\colorbox{red}{#1}}
+%\usepackage{physics}
+%\usepackage{enumerate}
+%\usepackage{booktabs} % not allowed in Revtex4.1
+\begin{document}
+\begin{CJK}{UTF8}{bsmi}
+\title{First Principle 2017-Fall  Homework 2 Solution}
+%\input author_list.tex       % D0 authors (remove the first 3 lines
+                             % of this file prior to submission, they
+                             % contain a time stamp for the authorlist)
+                             % (includes institutions and visitors)
+\author{Kai-Hsin Wu (吳愷訢)}
+\email{r05222003@ntu.edu.tw}
+\affiliation{Department of Physics and Center of Theoretical Sciences, National Taiwan University, Taipei 10607, Taiwan}
+
+%\date{\today}
+\maketitle
+
+\begin{enumerate}	
+	\item We start with Hartree-Fock hamiltonian for N electrons:
+	\begin{align*}
+		\hat{H}_{HF} &= \sum_{n=1}^{N} \hat{h}_n + \sum_{n=1}^{N}\sum_{m=1}^{N} \frac{1}{|r_n - r_m|} 
+	\end{align*} 
+	
+	Consider the many-electrons wave function $\Psi(x_1,x_2...)$ which can be represented as slater determinant:	
+	\begin{equation*}
+		\Psi(x_1, x_2, ...) = 
+		\begin{vmatrix}
+			\phi_{1}(x_1) & \phi_{2}(x_1) & \phi_{3}(x_1) & ... \\
+			\phi_{1}(x_2) & \phi_{2}(x_2) & \phi_{3}(x_2) &... \\
+			\phi_{1}(x_3) & \phi_{2}(x_3) & \phi_{3}(x_3) &... \\
+			... &  ... & ... & ... \\
+		\end{vmatrix}
+	\end{equation*}
+
+	To derive the Koopermans' theorem, we first remove one electron from orbital with wave vector $k$:
+	
+	\begin{equation*}
+		\hat{H}_{N-1}^{k} = \sum_{n=1,n\neq k}^{N-1} \hat{h}_{n} + \sum_{n=1}^{N-1} \sum_{m=1}^{N-1} \frac{1}{|r_n - r_m|} 
+	\end{equation*} 
+	
+	where 
+
+
+	
+\end{enumerate}
+
+
+
+
+\bibliographystyle{apsrev4-1}
+\bibliography{ref}
+	
+\end{CJK}
+\end{document}
+
