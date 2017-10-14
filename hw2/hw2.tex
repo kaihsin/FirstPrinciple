@@ -37,29 +37,101 @@
 \begin{enumerate}	
 	\item We start with Hartree-Fock hamiltonian for N electrons:
 	\begin{align*}
-		\hat{H}_{HF} &= \sum_{n=1}^{N} \hat{h}_n + \sum_{n=1}^{N}\sum_{m=1}^{N} \frac{1}{|r_n - r_m|} 
+		\hat{H}_{HF} &= \sum_{n=1}^{N} \hat{h}_n + \sum_{n,m,n < m}^{N} \frac{1}{|r_n - r_m|} \\
+		&= \sum_{n=1}^{N} \hat{h}_n + \sum_{n,m,n < m}^{N} \hat{V}_{nm}
 	\end{align*} 
 	
 	Consider the many-electrons wave function $\Psi(x_1,x_2...)$ which can be represented as slater determinant:	
 	\begin{equation*}
-		\Psi(x_1, x_2, ...) = 
+		\Psi(q_1, q_2, ...) = 
 		\begin{vmatrix}
-			\phi_{1}(x_1) & \phi_{2}(x_1) & \phi_{3}(x_1) & ... \\
-			\phi_{1}(x_2) & \phi_{2}(x_2) & \phi_{3}(x_2) &... \\
-			\phi_{1}(x_3) & \phi_{2}(x_3) & \phi_{3}(x_3) &... \\
-			... &  ... & ... & ... \\
+			\phi_{1}(q_1) & \phi_{2}(q_1) & \phi_{3}(q_1) & ... & \phi_{N}(q_1)\\
+			\phi_{1}(q_2) & \phi_{2}(q_2) & \phi_{3}(q_2) &... & \phi_{N}(q_2)\\
+			\phi_{1}(q_3) & \phi_{2}(q_3) & \phi_{3}(q_3) &... & \phi_{N}(q_3)\\
+			... &  ... & ... & ... & ...\\
+			\phi_{1}(q_N) &  \phi_{2}(q_N) & \phi_{3}(q_N) & ... & \phi_{N}(q_N)\\
 		\end{vmatrix}
 	\end{equation*}
-
-	To derive the Koopermans' theorem, we first remove one electron from orbital with wave vector $k$:
+	
+	where the one-site term $\hat{h}_n$ is non-zero only when acting on the single site.
 	
 	\begin{equation*}
-		\hat{H}_{N-1}^{k} = \sum_{n=1,n\neq k}^{N-1} \hat{h}_{n} + \sum_{n=1}^{N-1} \sum_{m=1}^{N-1} \frac{1}{|r_n - r_m|} 
-	\end{equation*} 
+		\bra{\Psi} \sum_{n}^{N} \hat{h}_n \ket{\Psi} = \sum_{n}^{N} T_n =  \sum_{n}^{N} \bra{\phi_{n}} \hat{h}_{n}  \ket{\phi_n}
+	\end{equation*}
 	
-	where 
+	and the total energy is :
+	\begin{equation*}
+	E_{HF} = \sum_{n}^{N} \bra{\phi_{n}} \hat{h}_{n}  \ket{\phi_n} + \frac{1}{2} \sum_{n,m}^{N} \bra{\phi_n\phi_m} \hat{V}_{nm}\ket{\phi_n\phi_m} - \bra{\phi_m\phi_n} \hat{V}_{nm}\ket{\phi_n\phi_m}
+	\end{equation*}
+	
+	
+	To derive the Koopermans' theorem we fist extract the energy in orbital with wave vector $k$ by variation optimize it with representation of Lagrangian multipliers $\lambda_{nm}$:
+	
+	\begin{align*}
+		\delta \bra{\Psi}\hat{F}\ket{\Psi} &= \delta \left[ \bra{\Psi} \hat{H}_{HF} \ket{\Psi} - \sum_{n,m} \lambda_{nm} (\bra{\phi_{n}}\ket{\phi_{m}}-\delta_{nm})  \right] \\
+		&= \bra{\delta\phi_k} \hat{h}_k\ket{\phi_k} + \bra{\delta \phi_k} \hat{h}_k \ket{\phi_k}^* - \bra{\delta \phi_k \phi_n} \hat{V}_{kn} \ket{\phi_i\phi_k} - \bra{\delta\phi_k\phi_i} \hat{V}_{kn}\ket{\phi_i\phi_k}^* \\ 
+		& + \sum_{n} \bra{\phi_n \delta \phi_k} \hat{V}_{nk}\ket{\phi_n\phi_k} + \bra{\phi_n \delta \phi_k} \hat{V}_{nk}\ket{\phi_n\phi_k}^* -  \lambda_{kn}\bra{\delta\phi_k}\ket{\phi_n} - \lambda_{nk}\bra{\delta\phi_k}\ket{\phi_n}^* \\
+		&= 0
+	\end{align*} 
+	
+	which we can further re-arrange into:
+	\begin{align*}
+		\hat{h} \phi_k(q_1) + \sum_{n}  \int \phi_{n}^{*}(q_2) \hat{V}\left[\phi_n(q_2)\phi_k(q_1) - \phi_n(q_1)\phi_k(q_2)\right] dq_2 &= \sum_{n} \lambda_{kn}\phi_n \\	
+		&= \epsilon_k\phi_k(q_1)
+	\end{align*}
+	
+	in a sense the $\epsilon_k$ is the representation of lagrangian multiplier that can be interpret as the energy in orbit k. 
+	
+	The energy difference to remove one-electron is :
+	\begin{align*}
+	\Delta_E &= -\bra{\phi_k} \hat{h} \ket{\phi_k} + \frac{1}{2} \sum_{n,m \neq k} V_{nm} - \frac{1}{2} \sum_{n,m} V_{nm} \\
+	&= -\bra{\phi_k} \hat{h} \ket{\phi_k}  - \frac{1}{2} \sum_{m} \left[ \bra{\phi_m\phi_k}\hat{V}_{mk}\ket{\phi_m\phi_k} - \bra{\phi_k\phi_m}\hat{V}_{mk}\ket{\phi_m\phi_k} \right] \\
+    & 	\hspace{2.5cm} - \frac{1}{2} \sum_{n} \left[ \bra{\phi_n\phi_k}\hat{V}_{nk}\ket{\phi_n\phi_k} - \bra{\phi_k\phi_n}\hat{V}_{nk}\ket{\phi_n\phi_k} \right] \\
+	&= -\bra{\phi_k} \hat{h} \ket{\phi_k}  - \sum_{m} \left[ \bra{\phi_m\phi_k}\hat{V}_{mk}\ket{\phi_m\phi_k} - \bra{\phi_k\phi_m}\hat{V}_{mk}\ket{\phi_m\phi_k} \right] \\
+	&= -{\epsilon_k \hspace{0.1cm}}_{ \#}
+	\end{align*}
 
-
+ \item We first unify $r_s$ in the unit of bohr radious $a_0$ as $r_s/a_0 \rightarrow r_s$ appears in energy $E^{HF}$ , $E^{es}$ and $E^{Wig}$.
+ \begin{align*}
+ 	\Delta E &= E^{HF} + E^{es} - E^{Wig} \\	
+ 			 &= \frac{2.21}{r_s^2} - \frac{0.916}{r_s} - \frac{6}{5r_s} + \frac{3}{r_s} - \frac{3}{r_s^{3/2}} \\
+ 			 &= \frac{0.884}{r_s}\left( 1 + \frac{2.21}{0.884r_s} - \frac{3}{0.884r_s^{0.5}}\right) \\
+ 			 &\approx 0.884(r_s+3.394)^{-1}
+ \end{align*}
+ 
+ which is compatible with the correlation energy of Wigner crystal in Table.
+ 	
+ \item We first unify the unit of energy $E$ as $(Ry)$ and $r_s/a_0 \rightarrow r_s$,and represent energies in terms of density $n$:
+ \begin{align*}
+ 		n    &= \frac{N}{\Omega} = \frac{3}{4\pi} r_s^{-3} \\
+	 E^{X}   &= -N \frac{0.916}{r_s} = -N 0.916 \left( \frac{4\pi n}{3} \right)^{1/3} \equiv -N\chi n^{1/3}\\
+	 E^{kin} &= N\frac{3}{5} (3\pi^2 n)^{2/3} \equiv N \gamma n^{2/3}
+ \end{align*}
+ 
+ To calculate the bulk modulus, we make use of energy derivation:
+ \begin{align*}
+ 	E_{tot} &= E^{X} + E^{kin} \\
+ 	B &= \Omega \frac{\partial^2 E_{tot}}{\partial\Omega^2} \\
+ 	  &= \left[ \frac{2n^2}{N} \frac{\partial}{\partial n} - \frac{n^3}{N}\frac{\partial^2}{\partial n^2} \right]E_{tot}
+ \end{align*}
+ 
+ In the sense the derivation is represent in terms of density $n$. Using the following relations :
+ 
+ \begin{align*}
+ 	\frac{\partial E^X}{\partial n } &= N \chi \frac{1}{3} n^{-2/3} = \frac{1}{3} E^X n^{-1}\\
+ 	\frac{\partial^2 E^X}{\partial n^2} &= N \chi \frac{-2}{9} n^{-5/3} = -\frac{2}{9} E^X n^{-2} \\
+ 	\frac{\partial E^{kin}}{\partial n } &= N \gamma \frac{2}{3} n^{-1/3} = \frac{2}{3} E^{kin} n^{-1}\\
+	\frac{\partial^2 E^{lin}}{\partial n^2} &= N \gamma \frac{-2}{9} n^{-4/3} = -\frac{2}{9} E^{kin} n^{-2} \\ 		 
+ \end{align*}
+ 
+ We can derive the bulk modulus $B$:
+ \begin{align*}
+ 	B &= \frac{2n^2}{N} \left[\frac{E^X}{3} n^{-1} + \frac{2}{3} E^{kin} n^{-1} \right] + \frac{n^3}{N} \left[ -\frac{2}{9} E^X n^{-2} -\frac{2}{9} E^{kin} n^{-2}\right] \\
+ 	  &= \frac{4}{9} \frac{E^X}{N} n + \frac{10}{9} \frac{E^{kin}}{N} n \\
+ 	  &= { \frac{1}{6\pi r_s^3} \left[ 5\frac{E^{kin}}{N} + 2\frac{E^X}{N}\right] }_{\#}
+ \end{align*}
+ 
+ \item 
 	
 \end{enumerate}
 
