@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  14 OCT 2017 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  15 OCT 2017 02:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1608,16 +1608,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
- (./hw2.bbl
+ [3] (./hw2.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) (./hw2.bbl) [3] (./hw2.aux) ) 
+) (./hw2.bbl) [4] (./hw2.aux) ) 
 Here is how much of TeX's memory you used:
- 15941 strings out of 493014
- 264861 string characters out of 6133336
+ 15942 strings out of 493014
+ 264869 string characters out of 6133336
  336646 words of memory out of 5000000
- 19270 multiletter control sequences out of 15000+600000
+ 19271 multiletter control sequences out of 15000+600000
  22446 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,11n,42p,10412b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1636,10 +1636,10 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on hw2.pdf (3 pages, 128015 bytes).
+Output written on hw2.pdf (4 pages, 129496 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

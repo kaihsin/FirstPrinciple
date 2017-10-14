@@ -131,8 +131,23 @@
  	  &= { \frac{1}{6\pi r_s^3} \left[ 5\frac{E^{kin}}{N} + 2\frac{E^X}{N}\right] }_{\#}
  \end{align*}
  
- \item 
-	
+ \item To derive the TF equation, we can variational optimization the total energy with Lagrangian multipliers :
+	 \begin{align*}
+	 	\delta\left( E -\mu N \right) = 0
+	 \end{align*}
+ 
+	 which can gives the density $n$ in equilibration. since:
+	 \begin{align*}
+	    \delta\left( E -\mu N \right) &=\delta \left[ \int \frac{3}{10} (3\pi^2)^{2/3} n^{2/3}n dr + \int V n dr - \mu \int n dr \right]  \\
+	    &= \int \left[ \frac{1}{2} (3\pi^2)^{2/3} n^{2/3} +V -\mu \right] \delta (n) dr \\
+	    &= 0
+	 \end{align*}
+	 We thus derived the TF equation :
+	 \begin{align*}
+	     {\frac{1}{2}(3\pi^2)^{2/3} n^{2/3} + V - \mu =0}_{\#}  
+	 \end{align*}
+	 
+ 
 \end{enumerate}
 
 
