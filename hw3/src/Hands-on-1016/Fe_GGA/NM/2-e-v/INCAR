@@ -1,0 +1,3 @@
+System = bcc Fe
+RWIGS = 1.302
+EDIFF = 1E-6

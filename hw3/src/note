@@ -1,0 +1,15 @@
+1-1 : structure optimization / 
+     optimize a0 , then deviate a little(repeat 7 ) ,draw E-V plot,  using polyfit to get the minimum (2 order.) 
+	 then P = - \partial E / \partialV , the equilibrum state is to let P = 0 ;
+
+	B = 1/V \partial P / \partial V = -1/V \partial^2 E / \partial B^2 
+
+    >>>>>  CONTCAR have the information of a0 
+
+	
+1-2 : do it with Na 
+
+
+copy s11gyg00/pot , using this to calculate LDA ... 	
+
+	

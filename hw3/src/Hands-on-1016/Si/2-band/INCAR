@@ -1,0 +1,6 @@
+System = Si
+RWIGS = 1.312
+EDIFF = 1E-6
+ICHARG = 11
+LCHARG = F
+LWAVE = F
