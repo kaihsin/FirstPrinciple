@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  23 OCT 2017 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.14)  23 OCT 2017 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1626,6 +1626,15 @@ LaTeX Warning: Command \r invalid in math mode on input line 74.
 
 LaTeX Warning: Command \r invalid in math mode on input line 74.
 
+
+LaTeX Warning: Command \r invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 93.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 93.
+
 (./hw3.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
@@ -1634,7 +1643,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 53.
 Here is how much of TeX's memory you used:
  15961 strings out of 493014
  265210 string characters out of 6133336
- 321259 words of memory out of 5000000
+ 324259 words of memory out of 5000000
  19285 multiletter control sequences out of 15000+600000
  23524 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1643,19 +1652,21 @@ Here is how much of TeX's memory you used:
 ips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bs
 miu54.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu61.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8a.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on hw3.pdf (2 pages, 114551 bytes).
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on hw3.pdf (2 pages, 133486 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
