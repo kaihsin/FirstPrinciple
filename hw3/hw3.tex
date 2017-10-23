@@ -73,28 +73,116 @@
 					B  &= 74.608739 \hspace{0.2cm} GPar 
 					\end{align*}
 				
-				\item  We start with HF energy density and seek for the minimum of $r_s$ :
+				\item  Consider the free electron HF energy density and seek for the minimum of $r_s$ :
 				\begin{align*}
-					e^{HF} = \frac{2.21}{r_s^2} - \frac{0.916}{r_s} 
+					e^{HF} &= \frac{A}{r_s^2} - \frac{\beta}{r_s} \\
+					A &= 2.21 \\
+					B &= 0.916
 				\end{align*}
-				Where the unit of energy is $Ry$ and $r_s$ is in unit of bohr radius. The minimum is at :
+				Where the unit of energy is $Ry$ and $r_s$ is in unit of bohr radius ($bohr$). The minimum is at :
 				\begin{equation*}
-					r_s = 2.553467 \hspace{0.2cm} \AA 
+					r_s^{*} =\frac{2A}{\beta} (bohr)=  2.553467 \hspace{0.2cm} \AA 
 				\end{equation*} 
-				using following relation by which we consider 1-free electron per unit-cell, we can estimate the lattice constant $a_0$ :
+				using following relation by which we consider 4 free electrons per unit-cell, we can estimate the lattice constant $a_0$ :
 				\begin{align*}
 					\frac{4\pi}{3}r_s^3 &= n^{-1} \\
 					\frac{N_{free}}{a_0^3} &= n 
 				\end{align*}
 				
 				\begin{align*}
-					a_0 &= \left( \frac{4\pi}{3}\right)^{1/3} r_s \\
-						&\approx 4.11616 \hspace{0.2cm} \AA \\
+					a_0 &= \left( \frac{16\pi}{3}\right)^{1/3} r_s \\
+						&\approx 6.1737 \hspace{0.2cm} \AA \\
+				\end{align*}
+				
+				For Bulk modulus, we have following relation. by which we express $\Omega$ in terms of $r_s$:
+				\begin{align*}
+					\frac{N}{\Omega} &= n = \frac{3}{4\pi r_s^3} \\
+					B &= \Omega \frac{\partial^{2}E}{\partial \Omega^{2}} \\
+					  &= \frac{1}{12\pi r_s}\left[ \frac{-2}{r_s}e^{HF'} + e^{HF''} \right] \\
+					  &= \frac{1}{6\pi r_s^4} \left[ \frac{5A}{r_s} - 2\beta \right] \\
 				\end{align*}
 
+				we have the bulk modulus at $r_s^{*}$
+				\begin{align*}
+				B &= \frac{\beta^4}{6\pi(2A)^4} \frac{\beta}{2} (Ry/bohr^3)\\
+				  &\approx 18.468 GPa
+				\end{align*}
+				
 			\end{enumerate}
-			\item Si
-			
+			\item Na
+			%==================================================================
+			\begin{enumerate}[label=(\arabic*)]
+				\item $a_0$ using volume optimization:
+				\begin{equation*}
+				a_0 = 4.05000 \hspace{0.2cm} 
+				\end{equation*}
+				\item Variation with different $a_0$:
+				\begin{center}
+					\begin{tabular}{ c c }
+						$a_0$ & $E$ \\ 
+						3.90 &-14.541085 \\
+						3.95 &-14.665726\\
+						4.00  &-14.735369\\
+						4.05 &-14.757538\\
+						4.10  &-14.738699\\
+						4.15 &-14.684395\\
+						4.20  &-14.599834 
+					\end{tabular}
+				\end{center}
+				
+				\item the following figure shows the energy ($E$ ) v.s. $V$ :
+				\begin{figure}[!h]
+					\includegraphics[width=8cm]{{Material/Al_E-V}.png}
+					\caption{Al-fcc E-V}
+					\label{fig:AlE-V}
+				\end{figure}
+				
+				By using third order polyfit, and with the following formula, we can get the bulk-modulus $B$ and the minimum $a_0$:
+				\begin{align*}
+				B &= V\frac{\partial^2}{\partial V^2} E \\
+				V &= a_0^3
+				\end{align*}
+				\begin{align*}
+				a_{0} &= 4.050723 \hspace{0.2cm} \AA\\
+				B  &= 74.608739 \hspace{0.2cm} GPar 
+				\end{align*}
+				
+				\item  Consider the free electron HF energy density and seek for the minimum of $r_s$ :
+				\begin{align*}
+				e^{HF} &= \frac{A}{r_s^2} - \frac{\beta}{r_s} \\
+				A &= 2.21 \\
+				B &= 0.916
+				\end{align*}
+				Where the unit of energy is $Ry$ and $r_s$ is in unit of bohr radius ($bohr$). The minimum is at :
+				\begin{equation*}
+				r_s^{*} =\frac{2A}{\beta} (bohr)=  2.553467 \hspace{0.2cm} \AA 
+				\end{equation*} 
+				using following relation by which we consider 4 free electrons per unit-cell, we can estimate the lattice constant $a_0$ :
+				\begin{align*}
+				\frac{4\pi}{3}r_s^3 &= n^{-1} \\
+				\frac{N_{free}}{a_0^3} &= n 
+				\end{align*}
+				
+				\begin{align*}
+				a_0 &= \left( \frac{16\pi}{3}\right)^{1/3} r_s \\
+				&\approx 6.1737 \hspace{0.2cm} \AA \\
+				\end{align*}
+				
+				For Bulk modulus, we have following relation. by which we express $\Omega$ in terms of $r_s$:
+				\begin{align*}
+				\frac{N}{\Omega} &= n = \frac{3}{4\pi r_s^3} \\
+				B &= \Omega \frac{\partial^{2}E}{\partial \Omega^{2}} \\
+				&= \frac{1}{12\pi r_s}\left[ \frac{-2}{r_s}e^{HF'} + e^{HF''} \right] \\
+				&= \frac{1}{6\pi r_s^4} \left[ \frac{5A}{r_s} - 2\beta \right] \\
+				\end{align*}
+				
+				we have the bulk modulus at $r_s^{*}$
+				\begin{align*}
+				B &= \frac{\beta^4}{6\pi(2A)^4} \frac{\beta}{2} (Ry/bohr^3)\\
+				&\approx 18.468 GPa
+				\end{align*}
+				
+			\end{enumerate}	
 		\end{itemize}
 \end{enumerate}
 
