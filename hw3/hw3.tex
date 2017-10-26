@@ -45,7 +45,7 @@
 				\item Variation with different $a_0$:
 					\begin{center}
 					\begin{tabular}{ c c }
-						$a_0$ & $E$ \\ 
+						$a_0 (\AA)$ & $E (eV)$ \\ 
 						3.90 &-14.541085 \\
 						3.95 &-14.665726\\
 						4.00  &-14.735369\\
@@ -70,7 +70,7 @@
 					\end{align*}
 					\begin{align*}
 					a_{0} &= 4.050723 \hspace{0.2cm} \AA\\
-					B  &= 74.608739 \hspace{0.2cm} GPar 
+					B  &= 74.608739 \hspace{0.2cm} GPa
 					\end{align*}
 				
 				\item  Consider the free electron HF energy density and seek for the minimum of $r_s$ :
@@ -119,22 +119,23 @@
 				\item Variation with different $a_0$:
 				\begin{center}
 					\begin{tabular}{ c c }
-						$a_0$ & $E$ \\ 
-						3.90 &-14.541085 \\
-						3.95 &-14.665726\\
-						4.00  &-14.735369\\
-						4.05 &-14.757538\\
-						4.10  &-14.738699\\
-						4.15 &-14.684395\\
-						4.20  &-14.599834 
+						$a_0 (\AA)$ & $E (eV)$ \\ 
+						3.9241059 &-1.437731 \\
+						3.9645606 &-1.443730 \\
+						4.0050153 &-1.447706 \\
+						4.0454700 &-1.449866 \\
+						4.0859247 &-1.449972 \\
+						4.1263794 &-1.448133 \\
+						4.1668341 &-1.445039 \\
+						4.2072888 &-1.440498 
 					\end{tabular}
 				\end{center}
 				
 				\item the following figure shows the energy ($E$ ) v.s. $V$ :
 				\begin{figure}[!h]
-					\includegraphics[width=8cm]{{Material/Al_E-V}.png}
-					\caption{Al-fcc E-V}
-					\label{fig:AlE-V}
+					\includegraphics[width=8cm]{{Material/Na_E-V}.png}
+					\caption{Na-fcc E-V}
+					\label{fig:NaE-V}
 				\end{figure}
 				
 				By using third order polyfit, and with the following formula, we can get the bulk-modulus $B$ and the minimum $a_0$:
@@ -143,8 +144,8 @@
 				V &= a_0^3
 				\end{align*}
 				\begin{align*}
-				a_{0} &= 4.050723 \hspace{0.2cm} \AA\\
-				B  &= 74.608739 \hspace{0.2cm} GPar 
+				a_{0} &= 4.06802437 \hspace{0.2cm} \AA\\
+				B  &= 4.83347453  \hspace{0.2cm} GPa 
 				\end{align*}
 				
 				\item  Consider the free electron HF energy density and seek for the minimum of $r_s$ :
@@ -157,15 +158,15 @@
 				\begin{equation*}
 				r_s^{*} =\frac{2A}{\beta} (bohr)=  2.553467 \hspace{0.2cm} \AA 
 				\end{equation*} 
-				using following relation by which we consider 4 free electrons per unit-cell, we can estimate the lattice constant $a_0$ :
+				using following relation by which we consider 2 free electrons per unit-cell, we can estimate the lattice constant $a_0$ :
 				\begin{align*}
 				\frac{4\pi}{3}r_s^3 &= n^{-1} \\
 				\frac{N_{free}}{a_0^3} &= n 
 				\end{align*}
 				
 				\begin{align*}
-				a_0 &= \left( \frac{16\pi}{3}\right)^{1/3} r_s \\
-				&\approx 6.1737 \hspace{0.2cm} \AA \\
+				a_0 &= \left( \frac{8\pi}{3}\right)^{1/3} r_s \\
+				&\approx 5.186047 \hspace{0.2cm} \AA \\
 				\end{align*}
 				
 				For Bulk modulus, we have following relation. by which we express $\Omega$ in terms of $r_s$:
