@@ -15,6 +15,7 @@
 \usepackage{listings}
 \usepackage{CJK}
 \usepackage{graphicx}
+\usepackage{booktabs}
 \newcommand{\hilight}[1]{\colorbox{red}{#1}}
 %\usepackage{physics}
 %\usepackage{enumerate}
@@ -58,7 +59,7 @@
 				
 				\item the following figure shows the energy ($E$ ) v.s. $V$ :
 					\begin{figure}[!h]
-						\includegraphics[width=8cm]{{Material/Al_E-V}.png}
+						\includegraphics[width=8cm]{{Material/q1/Al_E-V}.png}
 						\caption{Al-fcc E-V}
 						\label{fig:AlE-V}
 					\end{figure}
@@ -114,7 +115,7 @@
 			\begin{enumerate}[label=(\arabic*)]
 				\item $a_0$ using volume optimization:
 				\begin{equation*}
-				a_0 = 4.05000 \hspace{0.2cm} 
+				a_0 = 4.04669 \hspace{0.2cm} 
 				\end{equation*}
 				\item Variation with different $a_0$:
 				\begin{center}
@@ -133,7 +134,7 @@
 				
 				\item the following figure shows the energy ($E$ ) v.s. $V$ :
 				\begin{figure}[!h]
-					\includegraphics[width=8cm]{{Material/Na_E-V}.png}
+					\includegraphics[width=8cm]{{Material/q1/Na_E-V}.png}
 					\caption{Na-fcc E-V}
 					\label{fig:NaE-V}
 				\end{figure}
@@ -185,6 +186,113 @@
 				
 			\end{enumerate}	
 		\end{itemize}
+	\item For bcc Fe , doing LDA and GGA method with FM and NM :
+		\begin{itemize}
+			\item LDA 
+				\begin{enumerate}[label=(\arabic*)]
+					\item $a_0$ using volumn optimization :
+					\begin{align*}
+					a^{FM}_0 &=  2.744294 \hspace{0.2cm} \AA \\ 
+					a^{NM}_0 &=  2.694591 \hspace{0.2cm} \AA  
+					\end{align*} 
+					\item minimization energy with variated $a_0$ and are showed in figure below:
+					
+					\begin{center}
+						\begin{tabular}{*5c}
+							\multicolumn{2}{c}{FM} &{}& \multicolumn{2}{c}{NM} \\
+							$a_0 (\AA)$   & $E (eV)$    &{}& $a_0 (\AA)$   & $E (eV)$\\
+							2.60 &-8.967318 &{}&2.55 &-8.672935 \\
+							2.65 &-9.121350 &{}&2.60 &-8.863644 \\
+							2.70 &-9.206677 &{}&2.65 &-8.964152 \\
+							2.75 &-9.228247 &{}&2.70 &-8.988743 \\
+							2.80 &-9.202380 &{}&2.75 &-8.952579 \\ 
+							2.85 &-9.135795 &{}&2.80 &-8.867398 \\
+							2.90 &-9.048763 &{}&2.85 &-8.742378 \\
+							2.95 &-8.935725	&{}&2.90 &-8.585827
+						\end{tabular}			
+
+						\begin{figure}[!h]
+							\centering
+								\includegraphics[width=10cm]{{Material/q2/LDA_E-V-FMNM}.png}
+							\caption{Fe-bcc LDA E-V}
+							\label{fig:LDAFeE-VFMNM}
+						\end{figure}
+					\end{center}
+					The minimized $a_0$ and $B$ of bcc Fe with FM and NM are :
+					\begin{align*}
+					a_0^{FM} &=	 2.746787 \AA \hspace{0.5cm} &B^{FM} &=  134.99746 GPa \\
+					a_0^{NM} &=  2.694740 \AA \hspace{0.5cm} &B^{NM} &=  175.45431 GPa \\
+					\end{align*} 
+					
+					We see that the FM case has minimal energy, which shows the ground state is Ferromagnetic. 
+				\end{enumerate}
+			\newpage
+			\item GGA 
+				\begin{enumerate}[label=(\arabic*)]
+					\item $a_0$ using volumn optimization :
+						\begin{align*}
+							a^{FM}_0 &= 2.82214 \hspace{0.2cm} \AA \\ 
+							a^{NM}_0 &= 2.75412 \hspace{0.2cm} \AA  
+						\end{align*} 
+					\item minimization energy with variated $a_0$ and are showed in figure below:
+						
+						\begin{center}
+							\begin{tabular}{*5c}
+								 \multicolumn{2}{c}{FM} &{}& \multicolumn{2}{c}{NM} \\
+								 $a_0 (\AA)$   & $E (eV)$    &{}& $a_0 (\AA)$   & $E (eV)$\\
+								 2.70 &-8.009989 &{}&2.70 &-7.724527 \\
+								 2.75 &-8.108553 &{}&2.75 &-7.757336 \\
+								 2.80 &-8.151154 &{}&2.80 &-7.737622 \\
+								 2.85 &-8.158445 &{}&2.85 &-7.674045 \\
+								 2.90 &-8.135495 &{}&2.90 &-7.575350 \\ 
+								 2.95 &-8.077445 &{}&2.95 &-7.448175 \\
+								 3.00 &-8.000995 &{}&3.00 &-7.298845
+							\end{tabular}			
+						
+							\begin{figure}[!h]
+								\centering
+								\includegraphics[width=10cm]{{Material/q2/GGA_E-V-FMNM}.png}
+								\caption{Fe-bcc GGA E-V}
+								\label{fig:GGAFeE-VFMNM}
+							\end{figure}
+						\end{center}
+					The minimized $a_0$ and $B$ of bcc Fe with FM and NM are :
+					\begin{align*}
+						a_0^{FM} &=	2.834269 \AA \hspace{0.5cm} &B^{FM} &= 93.907626 GPa \\
+						a_0^{NM} &= 2.755061 \AA \hspace{0.5cm} &B^{NM} &= 124.57160 GPa \\
+					\end{align*} 
+					
+					We see that the FM case has minimal energy, which consist with the GGA results that the ground state is Ferromagnetic. 
+					 
+					
+				\end{enumerate}
+		\end{itemize}
+	\item
+	\begin{itemize}
+		\item Si
+		\begin{enumerate}[label=(\arabic*)]
+			\item $a_0$ using volumn optimization :
+			\begin{align*}
+			a^{Si}_0 &= 5.46078 \hspace{0.2cm} \AA 
+			\end{align*} 
+		\end{enumerate}
+	
+		\item Ge
+		\begin{enumerate}[label=(\arabic*)]
+			\item $a_0$ using volumn optimization :
+			\begin{align*}
+			a^{Ge}_0 &= 5.76822 \hspace{0.2cm} \AA 
+			\end{align*} 
+		\end{enumerate}
+	
+		\item GaAs
+		\begin{enumerate}[label=(\arabic*)]
+			\item $a_0$ using volumn optimization :
+			\begin{align*}
+			a^{GaAs}_0 &=  \hspace{0.2cm} \AA 
+			\end{align*} 
+		\end{enumerate}		
+	\end{itemize}
 \end{enumerate}
 
 

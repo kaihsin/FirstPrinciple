@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  26 OCT 2017 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  30 OCT 2017 03:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1386,96 +1386,116 @@ File: CJK.enc 2015/04/18 4.8.4
 LaTeX Info: Redefining \selectfont on input line 755.
 \CJK@indent=\box66
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 22.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count156
+\@cmidlb=\count157
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count158
+\@lastruleclass=\count159
+\@thisrulewidth=\dimen181
+)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 23.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 22.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 23.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 22.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 22.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 23.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 23.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 23.
 (./hw3.aux)
 \openout1 = `hw3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 23.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -1515,16 +1535,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
-\scratchdimen=\dimen169
+\scratchcounter=\count160
+\scratchdimen=\dimen182
 \scratchbox=\box67
-\nofMPsegments=\count157
-\nofMParguments=\count158
+\nofMPsegments=\count161
+\nofMParguments=\count162
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count159
-\MPscratchDim=\dimen170
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
+\MPscratchCnt=\count163
+\MPscratchDim=\dimen183
+\MPnumerator=\count164
+\makeMPintoPDFobject=\count165
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
@@ -1570,7 +1590,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count162
+\c@lstlisting=\count166
 \openout3 = `hw3Notes.bib'.
 
 
@@ -1584,8 +1604,8 @@ File: UTF8.enc 2015/04/18 4.8.4
 File: UTF8.chr 2015/04/18 4.8.4
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-LaTeX Font Info:    Try loading font information for C70+bsmi on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Try loading font information for C70+bsmi on input line 35.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/c70bsmi.fd
@@ -1594,89 +1614,179 @@ File: c70bsmi.fd 2015/04/18 4.8.4
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cjk/texinput/UTF8/c70bsmi.fdx
 File: c70bsmi.fdx 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 48.
+LaTeX Warning: Command \r invalid in math mode on input line 49.
 
-<Material/Al_E-V.png, id=1, 462.528pt x 346.896pt>
-File: Material/Al_E-V.png Graphic file (type png)
- <use Material/Al_E-V.png>
-Package pdftex.def Info: Material/Al_E-V.png used on input line 61.
+<Material/q1/Al_E-V.png, id=1, 462.528pt x 346.896pt>
+File: Material/q1/Al_E-V.png Graphic file (type png)
+
+<use Material/q1/Al_E-V.png>
+Package pdftex.def Info: Material/q1/Al_E-V.png used on input line 62.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Ma
+terial/q1/Al_E-V.png>]
 
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Mat
-erial/Al_E-V.png>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 74.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 74.
+LaTeX Warning: Command \r invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 84.
+LaTeX Warning: Command \r invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 95.
+LaTeX Warning: Command \r invalid in math mode on input line 85.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 95.
+LaTeX Warning: Command \r invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 96.
 
 [2]
 
-LaTeX Warning: Command \r invalid in math mode on input line 122.
+LaTeX Warning: Command \r invalid in math mode on input line 123.
 
-<Material/Na_E-V.png, id=27, 578.16pt x 433.62pt>
-File: Material/Na_E-V.png Graphic file (type png)
- <use Material/Na_E-V.png>
-Package pdftex.def Info: Material/Na_E-V.png used on input line 136.
+<Material/q1/Na_E-V.png, id=27, 578.16pt x 433.62pt>
+File: Material/q1/Na_E-V.png Graphic file (type png)
+
+<use Material/q1/Na_E-V.png>
+Package pdftex.def Info: Material/q1/Na_E-V.png used on input line 137.
 (pdftex.def)             Requested size: 227.62204pt x 170.71231pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 149.
+LaTeX Warning: Command \r invalid in math mode on input line 150.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 149.
+LaTeX Warning: Command \r invalid in math mode on input line 150.
 
-[3 <./Material/Na_E-V.png>]
+[3 <./Material/q1/Na_E-V.png>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 159.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 170.
+LaTeX Warning: Command \r invalid in math mode on input line 160.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 170.
+LaTeX Warning: Command \r invalid in math mode on input line 171.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 171.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 197.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 197.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 197.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 197.
+
+[4]
+
+LaTeX Warning: Command \r invalid in math mode on input line 203.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 203.
+
+<Material/q2/LDA_E-V-FMNM.png, id=35, 578.16pt x 433.62pt>
+File: Material/q2/LDA_E-V-FMNM.png Graphic file (type png)
+
+<use Material/q2/LDA_E-V-FMNM.png>
+Package pdftex.def Info: Material/q2/LDA_E-V-FMNM.png used on input line 216.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 225.
+
+[5 <./Material/q2/LDA_E-V-FMNM.png>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 242.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 242.
+
+<Material/q2/GGA_E-V-FMNM.png, id=40, 578.16pt x 433.62pt>
+File: Material/q2/GGA_E-V-FMNM.png Graphic file (type png)
+
+<use Material/q2/GGA_E-V-FMNM.png>
+Package pdftex.def Info: Material/q2/GGA_E-V-FMNM.png used on input line 254.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 277.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 277.
+
+[6 <./Material/q2/GGA_E-V-FMNM.png>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 285.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 285.
 
 (./hw3.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) (./hw3.bbl) [4] (./hw3.aux) ) 
+) (./hw3.bbl) [7] (./hw3.aux) ) 
 Here is how much of TeX's memory you used:
- 15967 strings out of 493014
- 265326 string characters out of 6133336
- 329273 words of memory out of 5000000
- 19290 multiletter control sequences out of 15000+600000
+ 16034 strings out of 493014
+ 266447 string characters out of 6133336
+ 330057 words of memory out of 5000000
+ 19350 multiletter control sequences out of 15000+600000
  23524 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,42p,10412b,809s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,42p,10412b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dv
 ips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bs
 miu54.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu61.
@@ -1693,10 +1803,10 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on hw3.pdf (4 pages, 171737 bytes).
+Output written on hw3.pdf (7 pages, 229996 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
