@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  30 OCT 2017 03:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.14)  30 OCT 2017 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1774,6 +1774,12 @@ LaTeX Warning: Command \r invalid in math mode on input line 285.
 
 LaTeX Warning: Command \r invalid in math mode on input line 285.
 
+
+LaTeX Warning: Command \r invalid in math mode on input line 293.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 293.
+
 (./hw3.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
@@ -1803,7 +1809,7 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on hw3.pdf (7 pages, 229996 bytes).
+Output written on hw3.pdf (7 pages, 230470 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream

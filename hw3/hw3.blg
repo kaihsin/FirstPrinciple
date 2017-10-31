@@ -2,11 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: hw3.aux
 I couldn't open database file ref.bib
----line 2 of file hw3.aux
+---line 13 of file hw3.aux
  : \bibdata{hw3Notes,ref
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 3 of file hw3.aux
+Illegal, another \bibdata command---line 14 of file hw3.aux
  : \bibdata
  :         {hw3Notes}
 I'm skipping whatever remains of this command
