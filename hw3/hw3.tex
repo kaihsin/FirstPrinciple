@@ -16,6 +16,7 @@
 \usepackage{CJK}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{hyperref}
 \newcommand{\hilight}[1]{\colorbox{red}{#1}}
 %\usepackage{physics}
 %\usepackage{enumerate}
@@ -267,7 +268,7 @@
 					
 				\end{enumerate}
 		\end{itemize}
-	\item 
+	\item GGA band gaps of typical semiconductors, the following experiment value comes from \cite{Bandref} 
 	\begin{itemize}
 		\item Si
 		\begin{enumerate}[label=(\arabic*)]
@@ -275,32 +276,71 @@
 			\begin{align*}
 			a^{Si}_0 &= 5.46078 \hspace{0.2cm} \AA 
 			\end{align*} 
+			\item The band structure and density of state are shown below :
+			
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=10cm]{{Material/q3/si}.png}
+				\caption{Si band-structure}
+				\label{fig:Si-band}
+			\end{figure}
+			The band gap $E^{Si}_g$ is :
+			\begin{align*}
+				E^{Si}_g = 0.6245 \hspace{0.2cm}  eV
+			\end{align*}
+		
+		
 		\end{enumerate}
-	
+		\newpage
 		\item Ge
 		\begin{enumerate}[label=(\arabic*)]
 			\item $a_0$ using volumn optimization :
 			\begin{align*}
 			a^{Ge}_0 &= 5.76822 \hspace{0.2cm} \AA 
 			\end{align*} 
+			\item The band structure and density of state are shown below :
+
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=10cm]{{Material/q3/Ge}.png}
+				\caption{Ge band-structure}
+				\label{fig:Ge-band}
+			\end{figure}
+				The band gap $E^{Ge}_g$ is :
+				\begin{align*}
+					E^{Ge}_g = 0.0 \hspace{0.2cm} eV
+				\end{align*}
 		\end{enumerate}
-	
+
+		\newpage
 		\item GaAs
 		\begin{enumerate}[label=(\arabic*)]
 			\item $a_0$ using volumn optimization :
 			\begin{align*}
-			a^{GaAs}_0 &=  \hspace{0.2cm} \AA 
+			a^{GaAs}_0 &= 5.751291 \hspace{0.2cm} \AA 
 			\end{align*} 
+			\item The band structure and density of state are shown below :
+
+				\begin{figure}[!h]
+					\centering
+					\includegraphics[width=10cm]{{Material/q3/GaAs}.png}
+					\caption{GaAs band-structure}
+					\label{fig:GaAs-band}
+				\end{figure}
+				The band gap $E^{GaAs}_g$ is :
+				\begin{align*}
+				E^{GaAs}_g = 0.1755 \hspace{0.2cm} eV
+				\end{align*}
 		\end{enumerate}		
 	\end{itemize}
 \end{enumerate}
 
 
-%http://www.ioffe.ru/SVA/NSM/Semicond/
+\end{CJK}
 
 \bibliographystyle{apsrev4-1}
 \bibliography{ref}
 	
-\end{CJK}
+
 \end{document}
 
