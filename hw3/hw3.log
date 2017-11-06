@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  5 NOV 2017 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  6 NOV 2017 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1918,40 +1918,95 @@ LaTeX Warning: Command \r invalid in math mode on input line 350.
 LaTeX Warning: Command \r invalid in math mode on input line 350.
 
 [9 <./Material/q3/GaAs.png>]
-<Material/q4/NiO-AFOII.png, id=113, 462.528pt x 346.896pt>
+<Material/q4/NiOAFII.png, id=113, 601.24625pt x 592.2125pt>
+File: Material/q4/NiOAFII.png Graphic file (type png)
+
+<use Material/q4/NiOAFII.png>
+Package pdftex.def Info: Material/q4/NiOAFII.png used on input line 360.
+(pdftex.def)             Requested size: 170.71652pt x 168.14977pt.
+
+<Material/q4/NiO-AFOII.png, id=114, 462.528pt x 346.896pt>
 File: Material/q4/NiO-AFOII.png Graphic file (type png)
 
 <use Material/q4/NiO-AFOII.png>
-Package pdftex.def Info: Material/q4/NiO-AFOII.png used on input line 362.
-(pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
+Package pdftex.def Info: Material/q4/NiO-AFOII.png used on input line 372.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
 
-<Material/q4/NiO-AFII+U.png, id=114, 462.528pt x 346.896pt>
-File: Material/q4/NiO-AFII+U.png Graphic file (type png)
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 372--373
+ [][] 
+ []
 
-<use Material/q4/NiO-AFII+U.png>
-Package pdftex.def Info: Material/q4/NiO-AFII+U.png used on input line 381.
-(pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
+<Material/q4/NiO-totdos.png, id=115, 462.528pt x 346.896pt>
+File: Material/q4/NiO-totdos.png Graphic file (type png)
+
+<use Material/q4/NiO-totdos.png>
+Package pdftex.def Info: Material/q4/NiO-totdos.png used on input line 379.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 379--380
+ [][] 
+ []
+
+<Material/q4/NiO-AFII_Nidos.png, id=116, 722.7pt x 578.16pt>
+File: Material/q4/NiO-AFII_Nidos.png Graphic file (type png)
+
+<use Material/q4/NiO-AFII_Nidos.png>
+Package pdftex.def Info: Material/q4/NiO-AFII_Nidos.png used on input line 388.
+
+(pdftex.def)             Requested size: 341.43306pt x 273.14676pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./hw3.bbl) [10 <./Material/q4/NiO-AFOII.png>] [11 <./Material/q4/NiO-AFII+U.pn
-g>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
+[10 <./Material/q4/NiOAFII.png> <./Material/q4/NiO-AFOII.png> <./Material/q4/Ni
+O-totdos.png>] [11 <./Material/q4/NiO-AFII_Nidos.png>]
+<Material/q4/NiO-AFII+U.png, id=136, 462.528pt x 346.896pt>
+File: Material/q4/NiO-AFII+U.png Graphic file (type png)
+
+<use Material/q4/NiO-AFII+U.png>
+Package pdftex.def Info: Material/q4/NiO-AFII+U.png used on input line 409.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 409--410
+ [][] 
+ []
+
+<Material/q4/NiO+u-totdos.png, id=137, 462.528pt x 346.896pt>
+File: Material/q4/NiO+u-totdos.png Graphic file (type png)
+
+<use Material/q4/NiO+u-totdos.png>
+Package pdftex.def Info: Material/q4/NiO+u-totdos.png used on input line 415.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 415--416
+ [][] 
+ []
+
+<Material/q4/NiO-AFII_Nidos+u.png, id=138, 722.7pt x 578.16pt>
+File: Material/q4/NiO-AFII_Nidos+u.png Graphic file (type png)
+
+<use Material/q4/NiO-AFII_Nidos+u.png>
+Package pdftex.def Info: Material/q4/NiO-AFII_Nidos+u.png used on input line 42
+4.
+(pdftex.def)             Requested size: 284.52756pt x 227.62523pt.
+ [12 <./Material/q4/NiO-AFII+U.png> <./Material/q4/NiO+u-totdos.png> <./Materia
+l/q4/NiO-AFII_Nidos+u.png>] (./hw3.bbl)
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
  (./hw3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
 Package rerunfilecheck Info: File `hw3.out' has not changed.
 (rerunfilecheck)             Checksum: C2465889ED7EB4CBBB52D3E3AA1057DB;137.
  ) 
 Here is how much of TeX's memory you used:
- 19462 strings out of 493014
- 318866 string characters out of 6133336
- 408388 words of memory out of 5000000
- 22705 multiletter control sequences out of 15000+600000
- 23524 words of font info for 65 fonts, out of 8000000 for 9000
+ 19517 strings out of 493014
+ 319899 string characters out of 6133336
+ 408659 words of memory out of 5000000
+ 22739 multiletter control sequences out of 15000+600000
+ 25990 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,42p,10412b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,42p,10412b,902s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu54.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu61.pfb></usr/local/texlive/2016/
@@ -1968,10 +2023,10 @@ e1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on hw3.pdf (11 pages, 483059 bytes).
+Output written on hw3.pdf (13 pages, 817231 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
