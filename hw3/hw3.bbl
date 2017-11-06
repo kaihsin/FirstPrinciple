@@ -50,10 +50,10 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont
-  {\url{http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/Semgap.html}}()}]{Bandref}%
+\bibitem [{\citenamefont {C.}()}]{Bandref}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont
-  {\url{http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/Semgap.html}}},\
-  }\href@noop {} {\ }\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {C.}},\ }\href@noop {} {\emph {\bibinfo {title} {Introduction to Solid State
+  Physics, 6th Ed. (1986), p. 185.}}}\ (\bibinfo  {publisher}
+  {Wiley})\BibitemShut {NoStop}%
 \end{thebibliography}%
