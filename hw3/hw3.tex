@@ -353,42 +353,87 @@
 
 	\newpage
 	\item GGA, GGA+U of NiO in AF-II
+	
+	the structure of NiO in AF-II :
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=6cm]{{Material/q4/NiOAFII}.png}
+		\caption{NiO-AFII lattice structure}
+		\label{fig:NiOAFII}
+	\end{figure}
 	\begin{itemize}
 		\item GGA 
 			\begin{enumerate}[label=(\arabic*)]
-				\item the bandstructure
-					\begin{figure}[!h]
+				\item the band structure and total DOS
+				\begin{figure}[!h]
+					\centering
+					\begin{minipage}{.5\textwidth}
 						\centering
-						\includegraphics[width=10cm]{{Material/q4/NiO-AFOII}.png}
+						\includegraphics[width=9cm]{{Material/q4/NiO-AFOII}.png}
 						\caption{NiO-AFII band-structure}
 						\label{fig:NiOAFII-band}
+						
+					\end{minipage}%
+					\begin{minipage}{0.5\textwidth}
+						\centering
+						\includegraphics[width=9cm]{{Material/q4/NiO-totdos}.png}
+						\caption{NiO-AFII density of state}
+						\label{fig:NiOAFII-dos}
+					\end{minipage}
+				\end{figure}
+				
+				\item density of state of Ni
+					\begin{figure}[!h]
+						\centering
+						\includegraphics[width=12cm]{{Material/q4/NiO-AFII_Nidos}.png}
+						\caption{Ni in NiO density of state}
+						\label{fig:Ni-dos}
 					\end{figure}
-				
-				
-					Energy gap $E_g$ and total magnetic moment $m$:
+	
+					Energy gap $E_g$ ,total magnetic moment $m$ and Ni moment $m_{Ni}$:
 					\begin{align*}
 						E_g &= 0.8936 eV \\ 
-						 m  &= 0.0000 
+						 m  &= 0.0000 \mu_{B} \\
+						 m_{Ni} &= 1.011 \mu_{B}
 					\end{align*}
 			\end{enumerate}
-		
+		\newpage
 		\item GGA+U 
 		\begin{enumerate}[label=(\arabic*)]
-			\item the bandstructure
-			
+
+			\item the band structure and total DOS
 			\begin{figure}[!h]
 				\centering
-				\includegraphics[width=10cm]{{Material/q4/NiO-AFII+U}.png}
-				\caption{NiO-AFII band-structure}
-				\label{fig:NiOAFII-band+U}
+				\begin{minipage}{.5\textwidth}
+					\centering
+					\includegraphics[width=9cm]{{Material/q4/NiO-AFII+U}.png}
+					\caption{NiO-AFII band-structure GGA+U}
+					\label{fig:NiOAFII-band+U}
+				\end{minipage}%
+				\begin{minipage}{0.5\textwidth}
+					\centering
+					\includegraphics[width=9cm]{{Material/q4/NiO+u-totdos}.png}
+					\caption{NiO-AFII density of state GGA+U}
+					\label{fig:NiOAFII+u-dos}
+				\end{minipage}
 			\end{figure}
 		
-		
-			Energy gap $E_g$ and total magnetic moment $m$:
+			\item density of state of Ni
+				\begin{figure}[!h]
+					\centering
+					\includegraphics[width=10cm]{{Material/q4/NiO-AFII_Nidos+u}.png}
+					\caption{Ni in NiO density of state GGA+U}
+					\label{fig:Ni-dos+u}
+				\end{figure}
+			
+			Energy gap $E_g$ ,total magnetic moment $m$ and Ni moment $m_{Ni}$:
 			\begin{align*}
 			E_g &= 1.0973 eV \\ 
-			m  &=  0.0000
+			m  &=  0.0000 \mu_{B}   \\
+			m_{Ni} &= 1.106 \mu_{B}
 			\end{align*}
+			
+			By apply $U_eff$ on Ni, we decouple the Ni and O energy part, as a result, the AF magnetic property contributed form Ni can be calculate more accurate. 
 		\end{enumerate}
 	\end{itemize}
 

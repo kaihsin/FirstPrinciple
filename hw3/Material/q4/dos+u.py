@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 paths = []
 tit   = []
-paths.append("nioaf2.0.u.dat")
+paths.append("nioaf2+u.0.u.dat")
 tit.append("NiO-AFII dos")
 #paths.append("nioaf2.0.d.dat")
 #tit.append("NiO-AFII spin-down")
@@ -37,7 +37,7 @@ for j in range(len(paths)):
 	plt.xlim([-8,2.5])
 	plt.ylim([0,6])
 	plt.legend()
-	plt.savefig('NiO-totdos.png',format='png',dpi=100,transparent=True)
+	plt.savefig('NiO+u-totdos.png',format='png',dpi=100,transparent=True)
 """
 plt.figure(5,[10,8])
 for l in range(len(dat[0][0])-1):
