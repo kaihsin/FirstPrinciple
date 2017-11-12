@@ -38,9 +38,11 @@ int main(int argc,char* argv[]){
 	printf("# Xi = %8.8lf\n",X[0]);
 	printf("# tot_Step = %7d\n",N);
 	printf("# print_skip = %7d\n",print_step);
+	printf("# method = Predictor-Corrector%s","\n");
 	double Xp,Vp;
 	//Recursion for position and velocity at later time
 	for(unsigned int i=0;i<N-1;i++){
+		T[i+1] = (i+1)*dT;
 		Xp = X[i] + V[i]*dT;
 		Vp = V[i] - Xp*dT;
 

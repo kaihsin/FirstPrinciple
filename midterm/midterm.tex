@@ -1,0 +1,78 @@
+\documentclass[notitlepage]{revtex4-1}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{physics}   % for simple physics notation
+\usepackage{bm}        % for math
+\usepackage{amssymb}   % for math
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{comment}
+\usepackage{listings}
+\usepackage{CJK}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\newcommand{\hilight}[1]{\colorbox{red}{#1}}
+%\usepackage{physics}
+%\usepackage{enumerate}
+%\usepackage{booktabs} % not allowed in Revtex4.1
+\begin{document}
+\begin{CJK}{UTF8}{bsmi}
+\title{First Principle 2017-Fall  midterm Solution}
+%\input author_list.tex       % D0 authors (remove the first 3 lines
+                             % of this file prior to submission, they
+                             % contain a time stamp for the authorlist)
+                             % (includes institutions and visitors)
+\author{Kai-Hsin Wu (吳愷訢)}
+\email{r05222003@ntu.edu.tw}
+\affiliation{Department of Physics and Center for Theoretical Sciences, National Taiwan University, Taipei 10607, Taiwan}
+
+%\date{\today}
+\maketitle
+
+\begin{enumerate}	
+	\item Al band structure using GGA calculation and free-electron band structure.
+	
+	\item Kohn-Sham
+	
+	\item Car-Parrinelo EOM
+	
+	\item GGA, GGA+U of MnO in AF-II
+
+	\item Finite difference algorithms. 
+	
+		In the following, we evaluate the harmonic oscillator with "Euler" , "Predictor-Corrector" and "Velocity-verlet" method.
+		\begin{enumerate}[label=(\alph*)]
+		\item Euler method with $dt = 2.5e-3 \pi$, $x(0) = 1$,$v(0) = 0$ 
+
+		\item Euler method with $dt = 2.5e-4 \pi$, $x(0) = 1$,$v(0) = 0$ 
+		
+		compare the result with (a), we can see that  reducing the update time interval, the energy still not conserved, but the error is decreased. 
+
+
+		\item Euler method compare with Predictor-Corrector method with $dt = 2.5e-3 \pi$, $x(0) = 1$,$v(0) = 0$ 
+
+		compare the result with (a), we can see that with the same update time interval ($dt$), we can see that the energy increment error is significantly reduced.  
+
+		\item Euler method compare with Velocity-Verlet method with $dt = 2.5e-3 \pi$, $x(0) = 1$,$v(0) = 0$ 
+		
+		compare the result with (a), we can see that with the same update time interval ($dt$), we can see that the energy increment error is reduced.  
+
+		\end{enumerate}
+
+\end{enumerate}
+
+
+\end{CJK}
+
+\bibliographystyle{apsrev4-1}
+\bibliography{ref}
+	
+
+\end{document}
+
