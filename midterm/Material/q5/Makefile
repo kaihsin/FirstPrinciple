@@ -1,7 +1,7 @@
 CC := g++
 CCFLAGS := -g -std=c++11
 
-all : euler velvert carparr
+all : euler velvert predcorr
 
 euler : code-Euler.cpp
 	$(CC) $(CCFLAGS) $< -o $@
@@ -9,12 +9,12 @@ euler : code-Euler.cpp
 velvert : code-VelVert.cpp
 	$(CC) $(CCFLAGS) $< -o $@
 
-carparr : code-CarParr.cpp
+predcorr : code-PredCorr.cpp
 	$(CC) $(CCFLAGS) $< -o $@
 
 .phony : clean
 
 clean:
-	rm *.o euler velvert
+	rm *.o euler velvert predcorr
 
 
