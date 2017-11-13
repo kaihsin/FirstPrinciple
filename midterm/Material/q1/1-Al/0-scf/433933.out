@@ -1,0 +1,93 @@
+ running on    2 total cores
+ distrk:  each k-point on    2 cores,    1 groups
+ distr:  one band on    1 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.3.2 13Sep12 (build Jun 30 2016 14:08:18) complex                        
+  
+ POSCAR found type information on POSCAR  Al
+ POSCAR found :  1 types and       1 ions
+ LDA part: xc-table for Ceperly-Alder, standard interpolation
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.321099550026E+01   -0.32110E+01   -0.56762E+02  1770   0.133E+02
+DAV:   2    -0.370727179197E+01   -0.49628E+00   -0.45475E+00  1800   0.138E+01
+DAV:   3    -0.370902681283E+01   -0.17550E-02   -0.17549E-02  1662   0.769E-01
+DAV:   4    -0.370902804130E+01   -0.12285E-05   -0.12288E-05  1818   0.207E-02
+DAV:   5    -0.370902804373E+01   -0.24384E-08   -0.21965E-08  1668   0.616E-04    0.905E-01
+DAV:   6    -0.369735780157E+01    0.11670E-01   -0.16012E-03  1434   0.221E-01    0.564E-01
+DAV:   7    -0.368964743979E+01    0.77104E-02   -0.44548E-03  1428   0.405E-01    0.267E-02
+DAV:   8    -0.368965549411E+01   -0.80543E-05   -0.21859E-05  1890   0.374E-02    0.689E-03
+DAV:   9    -0.368965696482E+01   -0.14707E-05   -0.18844E-07  1236   0.295E-03    0.994E-04
+DAV:  10    -0.368965669140E+01    0.27342E-06   -0.75200E-09   828   0.653E-04
+   1 F= -.36896567E+01 E0= -.36895723E+01  d E =-.253244E-03
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      The partial DOS and the PROCAR file are not evaluated for NPAR/=1      |
+|      please rerun with NPAR=1                                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@alps6-53>
+Subject: Job 433933: <vasp> in cluster <cluster5> Done
+
+Job <vasp> was submitted from host <alps6> by user <s11gyg07> in cluster <cluster5>.
+Job was executed on host(s) <2*alps6-53>, in queue <test>, as user <s11gyg07> in cluster <cluster5>.
+</home/s11gyg07> was used as the home directory.
+</home/s11gyg07/midterm/1-Al/0-scf> was used as the working directory.
+Started at Thu Nov  9 16:16:56 2017
+Results reported on Thu Nov  9 16:17:01 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -a mvapich
+#BSUB -n 2 
+#BSUB -J vasp
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q  test              # depend on -n
+#BSUB -R 'span[ptile=48]' # uncomment when multi-nodes
+#BSUB -R "ipathavail==0"  # uncomment when multi-nodes
+
+source /pkg/mpi/intel/12/mvapich2-1.8/bin/mpivars.sh
+
+VASP=/home/$USER/bin/vasp_ntu
+
+mpiexec -np ${LSB_DJOB_NUMPROC} ${VASP}
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.02 sec.
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <433933.err> for stderr output of this job.
+

@@ -1,0 +1,7 @@
+System = Al
+RWIGS = 1.402
+EDIFF = 1E-6
+ICHARG = 11
+LCHARG = F
+LWAVE = F
+LORBIT =10

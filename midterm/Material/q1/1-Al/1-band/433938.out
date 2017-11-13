@@ -1,0 +1,74 @@
+ running on    2 total cores
+ distrk:  each k-point on    2 cores,    1 groups
+ distr:  one band on    2 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.3.2 13Sep12 (build Jun 30 2016 14:08:18) complex                        
+  
+ POSCAR found type information on POSCAR  Al
+ POSCAR found :  1 types and       1 ions
+ LDA part: xc-table for Ceperly-Alder, standard interpolation
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: Al                                      
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.265898967706E+01   -0.26590E+01   -0.53218E+02  4040   0.150E+02
+DAV:   2    -0.339687105052E+01   -0.73788E+00   -0.65537E+00  4490   0.170E+01
+DAV:   3    -0.340079008436E+01   -0.39190E-02   -0.39045E-02  4525   0.125E+00
+DAV:   4    -0.340079404421E+01   -0.39598E-05   -0.39598E-05  4520   0.387E-02
+DAV:   5    -0.340079405235E+01   -0.81427E-08   -0.79968E-08  4565   0.137E-03
+DAV:   6    -0.340079405198E+01    0.36941E-09   -0.41019E-10  4340   0.863E-05
+   1 F= -.34007941E+01 E0= -.34003572E+01  d E =-.131060E-02
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@alps6-53>
+Subject: Job 433938: <vasp> in cluster <cluster5> Done
+
+Job <vasp> was submitted from host <alps6> by user <s11gyg07> in cluster <cluster5>.
+Job was executed on host(s) <2*alps6-53>, in queue <test>, as user <s11gyg07> in cluster <cluster5>.
+</home/s11gyg07> was used as the home directory.
+</home/s11gyg07/midterm/1-Al/1-band> was used as the working directory.
+Started at Thu Nov  9 16:17:51 2017
+Results reported on Thu Nov  9 16:17:57 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -a mvapich
+#BSUB -n 2 
+#BSUB -J vasp
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q  test              # depend on -n
+#BSUB -R 'span[ptile=48]' # uncomment when multi-nodes
+#BSUB -R "ipathavail==0"  # uncomment when multi-nodes
+
+source /pkg/mpi/intel/12/mvapich2-1.8/bin/mpivars.sh
+
+VASP=/home/$USER/bin/vasp_ntu
+
+mpiexec -np ${LSB_DJOB_NUMPROC} ${VASP}
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.79 sec.
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <433938.err> for stderr output of this job.
+

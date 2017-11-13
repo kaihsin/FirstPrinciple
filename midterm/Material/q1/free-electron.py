@@ -53,7 +53,7 @@ W = 0.250*b1 + 0.750*b2 + 0.500*b3
 X = 0.000*b1 + 0.500*b2 + 0.500*b3
 U = 0.250*b1 + 0.625*b2 + 0.625*b3
 
-r_x , ks, r_c = Construct_line([W,L,G,X,W,K,],20)
+r_x , ks, r_c = Construct_line([L,K,W,G,X,W,L,G,K],20)
 Es = free_dispersion(ks) ## SI unit
 
 Es /= sp.constants.e ## J -> eV
@@ -64,6 +64,13 @@ plt.title('free electron band')
 plt.ylabel('E (eV)')
 plt.plot(r_x,Es,'.')
 #plt.show()
+
+
+f = open('free.dat','w')
+for i in range(len(r_x)):
+    f.write("%10.11f %10.11f\n"%(r_x[i]/r_x[-1],Es[i]))
+f.close()
+
 
 for r in r_c:
 	plt.axvline(r,np.max(Es),color='0.7')

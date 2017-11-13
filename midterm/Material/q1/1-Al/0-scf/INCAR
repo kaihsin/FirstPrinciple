@@ -1,0 +1,5 @@
+System = Al
+RWIGS = 1.402
+EDIFF = 1E-6
+ISMEAR = 1
+LWAVE = F
