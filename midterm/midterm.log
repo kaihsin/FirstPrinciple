@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  13 NOV 2017 05:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.19)  26 NOV 2017 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,43 +1721,177 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./midterm.bbl
+)
+<Material/q1/Al.png, id=14, 462.528pt x 346.896pt>
+File: Material/q1/Al.png Graphic file (type png)
+ <use Material/q1/Al.png>
+Package pdftex.def Info: Material/q1/Al.png used on input line 42.
+(pdftex.def)             Requested size: 258.00539pt x 193.51408pt.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Mat
+erial/q1/Al.png>] [2] [3]
+<Material/q4/MnO-AFII.png, id=73, 1193.45876pt x 510.90875pt>
+File: Material/q4/MnO-AFII.png Graphic file (type png)
+
+<use Material/q4/MnO-AFII.png>
+Package pdftex.def Info: Material/q4/MnO-AFII.png used on input line 135.
+(pdftex.def)             Requested size: 398.33858pt x 170.52597pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 141.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
+
+<Material/q4/Result_GGA/gap.png, id=74, 462.528pt x 346.896pt>
+File: Material/q4/Result_GGA/gap.png Graphic file (type png)
+
+<use Material/q4/Result_GGA/gap.png>
+Package pdftex.def Info: Material/q4/Result_GGA/gap.png used on input line 148.
+
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
+
+<Material/q4/Result_GGA/MnO-totdos.png, id=75, 462.528pt x 346.896pt>
+File: Material/q4/Result_GGA/MnO-totdos.png Graphic file (type png)
+
+<use Material/q4/Result_GGA/MnO-totdos.png>
+Package pdftex.def Info: Material/q4/Result_GGA/MnO-totdos.png used on input li
+ne 154.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+<Material/q4/Result_GGA/MnO-AFII_Mn.png, id=76, 722.7pt x 578.16pt>
+File: Material/q4/Result_GGA/MnO-AFII_Mn.png Graphic file (type png)
+
+<use Material/q4/Result_GGA/MnO-AFII_Mn.png>
+Package pdftex.def Info: Material/q4/Result_GGA/MnO-AFII_Mn.png used on input l
+ine 161.
+(pdftex.def)             Requested size: 312.9803pt x 250.38599pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./Material/q4/MnO-AFII.png> <./Material/q4/Result_GGA/gap.png> <./Material/
+q4/Result_GGA/MnO-totdos.png>] [5 <./Material/q4/Result_GGA/MnO-AFII_Mn.png>]
+<Material/q4/Result_GGA+U/gap.png, id=95, 462.528pt x 346.896pt>
+File: Material/q4/Result_GGA+U/gap.png Graphic file (type png)
+
+<use Material/q4/Result_GGA+U/gap.png>
+Package pdftex.def Info: Material/q4/Result_GGA+U/gap.png used on input line 18
+5.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+<Material/q4/Result_GGA+U/MnO-totdos-gga+u.png, id=96, 462.528pt x 346.896pt>
+File: Material/q4/Result_GGA+U/MnO-totdos-gga+u.png Graphic file (type png)
+
+<use Material/q4/Result_GGA+U/MnO-totdos-gga+u.png>
+Package pdftex.def Info: Material/q4/Result_GGA+U/MnO-totdos-gga+u.png used on 
+input line 191.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (41.0725pt too wide) in paragraph at lines 191--192
+ [][] 
+ []
+
+<Material/q4/Result_GGA+U/MnO-AFII_Mn-gga+u.png, id=97, 722.7pt x 578.16pt>
+File: Material/q4/Result_GGA+U/MnO-AFII_Mn-gga+u.png Graphic file (type png)
+
+<use Material/q4/Result_GGA+U/MnO-AFII_Mn-gga+u.png>
+Package pdftex.def Info: Material/q4/Result_GGA+U/MnO-AFII_Mn-gga+u.png used on
+ input line 199.
+(pdftex.def)             Requested size: 284.52756pt x 227.62523pt.
+ [6 <./Material/q4/Result_GGA+U/gap.png> <./Material/q4/Result_GGA+U/MnO-totdos
+-gga+u.png> <./Material/q4/Result_GGA+U/MnO-AFII_Mn-gga+u.png>]
+<Material/q5/Euler-2.5000E-03.png, id=109, 361.35pt x 433.62pt>
+File: Material/q5/Euler-2.5000E-03.png Graphic file (type png)
+
+<use Material/q5/Euler-2.5000E-03.png>
+Package pdftex.def Info: Material/q5/Euler-2.5000E-03.png used on input line 22
+5.
+(pdftex.def)             Requested size: 171.99922pt x 206.4017pt.
+
+<Material/q5/Euler-2.5000E-04.png, id=110, 361.35pt x 433.62pt>
+File: Material/q5/Euler-2.5000E-04.png Graphic file (type png)
+
+<use Material/q5/Euler-2.5000E-04.png>
+Package pdftex.def Info: Material/q5/Euler-2.5000E-04.png used on input line 22
+7.
+(pdftex.def)             Requested size: 171.99922pt x 206.4017pt.
+ [7 <./Material/q5/Euler-2.5000E-03.png> <./Material/q5/Euler-2.5000E-04.png>]
+<Material/q5/Euler-Predictor-Corrector_2.5000E-03.png, id=125, 361.35pt x 433.6
+2pt>
+File: Material/q5/Euler-Predictor-Corrector_2.5000E-03.png Graphic file (type p
+ng)
+ <use Material/q5/Euler-Predictor-Corrector_2.5000E-03.png>
+Package pdftex.def Info: Material/q5/Euler-Predictor-Corrector_2.5000E-03.png u
+sed on input line 239.
+(pdftex.def)             Requested size: 215.0023pt x 258.0038pt.
+ [8 <./Material/q5/Euler-Predictor-Corrector_2.5000E-03.png>]
+<Material/q5/Euler-Velocity-Verlet_2.5000E-03.png, id=133, 361.35pt x 433.62pt>
+File: Material/q5/Euler-Velocity-Verlet_2.5000E-03.png Graphic file (type png)
+<use Material/q5/Euler-Velocity-Verlet_2.5000E-03.png>
+Package pdftex.def Info: Material/q5/Euler-Velocity-Verlet_2.5000E-03.png used 
+on input line 252.
+(pdftex.def)             Requested size: 215.0023pt x 258.0038pt.
+ (./midterm.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
-
-(./midterm.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+) [9 <./Material/q5/Euler-Velocity-Verlet_2.5000E-03.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+ (./midterm.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `midterm.out' has not changed.
 (rerunfilecheck)             Checksum: A52D42E495538641D68C3B607B5E621B;134.
  ) 
 Here is how much of TeX's memory you used:
- 19330 strings out of 493014
- 316820 string characters out of 6133336
- 401026 words of memory out of 5000000
- 22626 multiletter control sequences out of 15000+600000
- 22446 words of font info for 64 fonts, out of 8000000 for 9000
+ 19497 strings out of 493014
+ 320306 string characters out of 6133336
+ 412564 words of memory out of 5000000
+ 22722 multiletter control sequences out of 15000+600000
+ 27616 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,42p,10416b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,9n,42p,10416b,899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu54.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu61.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8a.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on midterm.pdf (1 page, 86028 bytes).
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on midterm.pdf (9 pages, 837152 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 

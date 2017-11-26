@@ -52,13 +52,20 @@ for line in lines:
     
 f.close()
 free_dat = np.array(free_dat)
+
+E_fermi = +7.1271
+W_Al    = 3.207
+
 ## plot bands
 plt.close('all')
 plt.figure(1)
 for b in range(Nband):
-    plt.plot(bands[b,:,0],bands[b,:,1],'k-')
+    if b == Nband-1:
+        plt.plot(bands[b,:,0],bands[b,:,1],'k-',label='Al')
+    else:
+        plt.plot(bands[b,:,0],bands[b,:,1],'k-')
 
-plt.plot(free_dat[:,0],free_dat[:,1]-11)
+plt.plot(free_dat[:,0],free_dat[:,1]-E_fermi-W_Al,label='free electron')
 
 
 for ft in Fixs:
@@ -73,7 +80,8 @@ new_tick_label = ["L","K","W",r"$\Gamma$","X","W","L",r"$\Gamma$","K"]
 plt.xticks(new_tick_loc,new_tick_label)
 plt.xlim([0,1])
 plt.ylim([-20,20])
-plt.legend()
+plt.ylabel("E (eV) offset = -7.1271 eV")
+plt.legend() 
 plt.title(ID.upper() + ' band structure')
 plt.savefig(ID+'.png',format='png',dpi=100)
 plt.show()

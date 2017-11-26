@@ -93,6 +93,7 @@ new_tick_label = [r"$\Gamma$","X","U",r"$\Gamma$","L","W","X"]
 plt.xticks(new_tick_loc,new_tick_label)
 plt.xlim([0,1])
 plt.ylim([-8,8])
+plt.ylabel("E (eV)")
 plt.legend()
 plt.title(ID.upper() + ' band structure')
 plt.savefig(ID+'.png',format='png',dpi=100)
