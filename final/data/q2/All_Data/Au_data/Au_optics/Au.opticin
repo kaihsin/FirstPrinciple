@@ -1,0 +1,11 @@
+2,1                   ! intra(1/2 no/yes), imme(1/2)
+2,2,0.1               ! islot,ikk,kkshift (for interband transition)
+2,0.07,0              ! idrude,drude_damping,wpshift (not use for intra =1 )
+1,5.6259,1,1,0,0      ! ival,ef,imetal,ispin,iso,itr
+0.0,20.0,0.02,0.1,30  ! emin,erange,de,sigma,nbcal0
+1                     ! isci
+0.0                   ! eshift
+3                     ! itot
+1                     ! icom(1~itot 1:xx, 2:yy 3:zz)
+2
+3

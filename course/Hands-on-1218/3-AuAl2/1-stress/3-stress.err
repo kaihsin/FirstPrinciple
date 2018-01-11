@@ -1,0 +1,6 @@
+init.c(379):ERROR:109: Unknown shell type 'load'
+init.c(379):ERROR:109: Unknown shell type 'load'
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4

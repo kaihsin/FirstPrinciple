@@ -1,0 +1,6 @@
+please replace main.F, optics.F and symmetry.F
+in the vasp.5.3.5 code with the corresponding subroutines
+provided here. You can see the modifications I made
+by comparing xxx.F and xxx_orig.F.
+
+search the key word : "gyg" and "yao" to find the modifications

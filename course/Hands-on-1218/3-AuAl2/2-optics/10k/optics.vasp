@@ -1,0 +1,26 @@
+/bin/csh
+#BSUB -J optics
+#BSUB -e optics.err
+#BSUB -o optics.stderr
+#BSUB -R 'span[ptile=12]'
+#BSUB -q 12cpu
+#BSUB -n 12
+
+cat $LSB_DJOB_HOSTFILE > /work/s11gyg07/Hands-on-1218/3-AuAl2/2-optics/10k/hostlist.565
+
+module load compiler/intel/2015
+module load mpi/intel/2015/mvapich2/2.1
+
+echo "Your VASP job starts at  `date` "
+
+
+
+/pkg/mpi/intel/2015/mvapich2/2.1/bin/mpirun -np 12  /home/s11gyg00/bin/vasp_optics
+
+
+wait
+
+
+echo "Your VASP job completed at  `date` "
+
+

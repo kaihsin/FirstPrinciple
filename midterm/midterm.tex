@@ -114,7 +114,7 @@
 	
 		The Car-Parrinelo lagrangian:
 		\begin{align}
-				L = \sum_{i} \frac{1}{2} \mu \int |\dot{\phi_i}(r)|^2 dr + \sum_{I} \frac{1}{2} M_I \dot{R_I}^2 - E \left[{\phi_i},{R_i}\right] - \sum_{ij} \Lambda_{ij} \int \phi_i(r) \phi_j(r) dr - \delta_{ij}
+				L = \sum_{i} \frac{1}{2} \mu \int |\dot{\phi_i}(r)|^2 dr + \sum_{I} \frac{1}{2} M_I \dot{R_I}^2 - E \left[{\phi_i},{R_i}\right] - \sum_{ij} \Lambda_{ij} \left( \int \phi_i(r) \phi_j(r) dr - \delta_{ij} \right)
 		\end{align} 
 		 To impose the orthonmality, we add a term with lagrangian multiplier $\Lambda_{ij}$. With the Euler-Lagrangian equation:
 		 \begin{equation}
